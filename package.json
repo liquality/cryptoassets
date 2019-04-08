@@ -1,0 +1,92 @@
+{
+  "name": "@liquality/cryptoassets",
+  "version": "0.0.1",
+  "keywords": [
+    "blockchain",
+    "crypto",
+    "cryptocurrency",
+    "cryptocurrencies",
+    "cryptoassets"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/liquality/cryptoassets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/liquality/cryptoassets/issues"
+  },
+  "homepage": "https://github.com/liquality/cryptoassets#readme",
+  "author": "Liquality <info@liquality.io>",
+  "module": "src/index.js",
+  "main": "dist/index.cjs.js",
+  "files": [
+    "dist/index.umd.js",
+    "src/**/*"
+  ],
+  "scripts": {
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "lint": "standard \"**/*.js\" \"**/*.html\" \"**/*.md\"",
+    "test": "cross-env NODE_ENV=test nyc mocha test/unit $npm_package_options_mocha",
+    "test:swap": "cross-env NODE_ENV=test mocha test/integration/swap $npm_package_options_mocha",
+    "build:dev:node": "webpack --config ./webpack/webpack.node.config.js",
+    "build:dev:browser": "webpack --config ./webpack/webpack.browser.config.js",
+    "build:dev": "webpack --config ./webpack/webpack.config.js",
+    "watch": "WEBPACK_WATCH=true webpack --config ./webpack/webpack.config.js",
+    "build:node": "cross-env NODE_ENV=production BABEL_ENV=production npm run build:dev:node",
+    "build:browser": "cross-env NODE_ENV=production BABEL_ENV=production npm run build:dev:browser",
+    "build": "cross-env NODE_ENV=production BABEL_ENV=production npm run build:dev",
+    "copy:browser-examples-to-docs": "copy \"examples/browser/**/*\" docs/examples/browser",
+    "copy:browser-build-to-docs": "copy \"dist/index.umd.js\" docs/",
+    "build:docs": "esdoc",
+    "prepare:docs": "run-s build build:docs copy:*",
+    "push:docs": "gh-pages -d docs/ -m \"Auto-generated commit for documentation\"",
+    "publish:docs": "run-s prepare:docs push:docs"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.4.3",
+    "bignumber.js": "^8.0.1",
+    "ethereumjs-util": "^6.1.0",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/plugin-transform-runtime": "^7.4.0",
+    "@babel/preset-env": "^7.4.1",
+    "@babel/register": "^7.4.0",
+    "babel-plugin-lodash": "^3.3.4",
+    "babel-loader": "^8.0.5",
+    "copy": "^0.3.2",
+    "coveralls": "^3.0.2",
+    "cross-env": "^5.2.0",
+    "npm-run-all": "^4.1.3",
+    "pre-commit": "^1.2.2",
+    "should": "^13.2.1",
+    "standard": "^12.0.1",
+    "webpack": "^4.16.1",
+    "webpack-bundle-analyzer": "^3.0.3",
+    "lodash-webpack-plugin": "^0.11.5",
+    "webpack-cli": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "pre-commit": [
+    "lint",
+    "build",
+    "test"
+  ],
+  "standard": {
+    "plugins": [
+      "html",
+      "markdown"
+    ],
+    "ignore": [
+      "dist/**",
+      "docs/**"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
