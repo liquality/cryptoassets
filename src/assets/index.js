@@ -3,7 +3,7 @@ import BigNumber from 'bignumber.js'
 import networkAssets from './network'
 import erc20Assets from './erc20'
 
-const assets = {
+let assets = {
   ...networkAssets,
   ...erc20Assets
 }

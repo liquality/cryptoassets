@@ -8,8 +8,8 @@
   ],
   "version": "4.29.6",
   "hash": "7927500f2f15203a48ba",
-  "time": 5467,
-  "builtAt": 1554731485015,
+  "time": 1225,
+  "builtAt": 1554732815424,
   "publicPath": "",
   "outputPath": "/Users/monokh/Code/cryptoassets/dist",
   "assetsByChunkName": {
@@ -113,8 +113,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -389,8 +389,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -633,8 +633,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -796,8 +796,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -969,8 +969,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -1139,8 +1139,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -1246,9 +1246,9 @@
           "chunks": [
             0
           ],
-          "issuer": "/Users/monokh/Code/cryptoassets/node_modules/readable-stream/readable-browser.js",
-          "issuerId": 18,
-          "issuerName": "./node_modules/readable-stream/readable-browser.js",
+          "issuer": "/Users/monokh/Code/cryptoassets/node_modules/readable-stream/duplex-browser.js",
+          "issuerId": 67,
+          "issuerName": "./node_modules/readable-stream/duplex-browser.js",
           "issuerPath": [
             {
               "id": null,
@@ -1262,8 +1262,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -1286,9 +1286,9 @@
               "name": "./node_modules/stream-browserify/index.js"
             },
             {
-              "id": 18,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/readable-stream/readable-browser.js",
-              "name": "./node_modules/readable-stream/readable-browser.js"
+              "id": 67,
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/readable-stream/duplex-browser.js",
+              "name": "./node_modules/readable-stream/duplex-browser.js"
             }
           ],
           "failed": false,
@@ -1400,8 +1400,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -1538,8 +1538,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -1646,9 +1646,9 @@
           "chunks": [
             0
           ],
-          "issuer": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
+          "issuer": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
           "issuerId": null,
-          "issuerName": "./src/assets/erc20.js",
+          "issuerName": "./src/assets/network.js",
           "issuerPath": [
             {
               "id": null,
@@ -1662,8 +1662,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             }
           ],
           "failed": false,
@@ -1769,8 +1769,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -1863,9 +1863,9 @@
           "chunks": [
             0
           ],
-          "issuer": "/Users/monokh/Code/cryptoassets/node_modules/readable-stream/lib/_stream_readable.js",
-          "issuerId": 24,
-          "issuerName": "./node_modules/readable-stream/lib/_stream_readable.js",
+          "issuer": "/Users/monokh/Code/cryptoassets/node_modules/readable-stream/lib/_stream_duplex.js",
+          "issuerId": 6,
+          "issuerName": "./node_modules/readable-stream/lib/_stream_duplex.js",
           "issuerPath": [
             {
               "id": null,
@@ -1879,8 +1879,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -1903,14 +1903,14 @@
               "name": "./node_modules/stream-browserify/index.js"
             },
             {
-              "id": 18,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/readable-stream/readable-browser.js",
-              "name": "./node_modules/readable-stream/readable-browser.js"
+              "id": 67,
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/readable-stream/duplex-browser.js",
+              "name": "./node_modules/readable-stream/duplex-browser.js"
             },
             {
-              "id": 24,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/readable-stream/lib/_stream_readable.js",
-              "name": "./node_modules/readable-stream/lib/_stream_readable.js"
+              "id": 6,
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/readable-stream/lib/_stream_duplex.js",
+              "name": "./node_modules/readable-stream/lib/_stream_duplex.js"
             }
           ],
           "failed": false,
@@ -2004,8 +2004,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -2129,8 +2129,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -2214,9 +2214,9 @@
           "chunks": [
             0
           ],
-          "issuer": "/Users/monokh/Code/cryptoassets/node_modules/readable-stream/lib/_stream_readable.js",
-          "issuerId": 24,
-          "issuerName": "./node_modules/readable-stream/lib/_stream_readable.js",
+          "issuer": "/Users/monokh/Code/cryptoassets/node_modules/readable-stream/lib/_stream_duplex.js",
+          "issuerId": 6,
+          "issuerName": "./node_modules/readable-stream/lib/_stream_duplex.js",
           "issuerPath": [
             {
               "id": null,
@@ -2230,8 +2230,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -2254,14 +2254,14 @@
               "name": "./node_modules/stream-browserify/index.js"
             },
             {
-              "id": 18,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/readable-stream/readable-browser.js",
-              "name": "./node_modules/readable-stream/readable-browser.js"
+              "id": 67,
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/readable-stream/duplex-browser.js",
+              "name": "./node_modules/readable-stream/duplex-browser.js"
             },
             {
-              "id": 24,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/readable-stream/lib/_stream_readable.js",
-              "name": "./node_modules/readable-stream/lib/_stream_readable.js"
+              "id": 6,
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/readable-stream/lib/_stream_duplex.js",
+              "name": "./node_modules/readable-stream/lib/_stream_duplex.js"
             }
           ],
           "failed": false,
@@ -2346,8 +2346,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -2535,8 +2535,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -2632,8 +2632,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -2729,8 +2729,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -2831,8 +2831,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -2923,8 +2923,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -3025,8 +3025,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -3103,8 +3103,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -3186,8 +3186,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -3279,8 +3279,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -3377,8 +3377,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -3475,8 +3475,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -3552,9 +3552,9 @@
           "chunks": [
             0
           ],
-          "issuer": "/Users/monokh/Code/cryptoassets/node_modules/secp256k1/lib/elliptic/index.js",
-          "issuerId": 78,
-          "issuerName": "./node_modules/secp256k1/lib/elliptic/index.js",
+          "issuer": "/Users/monokh/Code/cryptoassets/node_modules/secp256k1/lib/index.js",
+          "issuerId": 74,
+          "issuerName": "./node_modules/secp256k1/lib/index.js",
           "issuerPath": [
             {
               "id": null,
@@ -3568,8 +3568,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -3582,9 +3582,9 @@
               "name": "./node_modules/secp256k1/elliptic.js"
             },
             {
-              "id": 78,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/secp256k1/lib/elliptic/index.js",
-              "name": "./node_modules/secp256k1/lib/elliptic/index.js"
+              "id": 74,
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/secp256k1/lib/index.js",
+              "name": "./node_modules/secp256k1/lib/index.js"
             }
           ],
           "failed": false,
@@ -3688,8 +3688,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -3761,8 +3761,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -3844,8 +3844,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -3927,8 +3927,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -4010,8 +4010,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -4103,8 +4103,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -4211,8 +4211,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -4314,8 +4314,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -4417,8 +4417,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -5325,8 +5325,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -5394,8 +5394,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -5462,8 +5462,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -5526,8 +5526,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -5590,8 +5590,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -5659,8 +5659,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -5733,8 +5733,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -5807,8 +5807,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -5881,8 +5881,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -5969,8 +5969,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -6058,8 +6058,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -6151,8 +6151,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -6240,8 +6240,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -6334,8 +6334,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -6423,8 +6423,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -6507,8 +6507,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -6586,8 +6586,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -6665,8 +6665,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -6744,8 +6744,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -6823,8 +6823,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -6897,8 +6897,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -6966,8 +6966,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -7040,8 +7040,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -7104,8 +7104,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -7173,8 +7173,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -7247,8 +7247,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -7321,8 +7321,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -7400,8 +7400,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -7469,8 +7469,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -7538,8 +7538,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -7607,8 +7607,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -7676,8 +7676,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -7750,8 +7750,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -7824,8 +7824,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -7898,8 +7898,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -7972,8 +7972,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -8041,8 +8041,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -8150,8 +8150,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -8229,8 +8229,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -8308,8 +8308,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -8391,8 +8391,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -8475,8 +8475,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -8559,8 +8559,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -8643,8 +8643,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -8727,8 +8727,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -8806,8 +8806,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -8895,8 +8895,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -8989,8 +8989,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -9083,8 +9083,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -9177,8 +9177,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -9266,8 +9266,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -9355,8 +9355,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -9439,8 +9439,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -9518,8 +9518,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -9602,8 +9602,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -9686,8 +9686,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -9770,8 +9770,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -9849,8 +9849,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -9933,8 +9933,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -10017,8 +10017,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -10081,8 +10081,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -10150,8 +10150,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -10224,8 +10224,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -10288,8 +10288,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-              "name": "./src/assets/erc20.js"
+              "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+              "name": "./src/assets/network.js"
             },
             {
               "id": 9,
@@ -10654,8 +10654,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -10929,8 +10929,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -11172,8 +11172,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -11334,8 +11334,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -11506,8 +11506,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -11675,8 +11675,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -11781,9 +11781,9 @@
       "chunks": [
         0
       ],
-      "issuer": "/Users/monokh/Code/cryptoassets/node_modules/readable-stream/readable-browser.js",
-      "issuerId": 18,
-      "issuerName": "./node_modules/readable-stream/readable-browser.js",
+      "issuer": "/Users/monokh/Code/cryptoassets/node_modules/readable-stream/duplex-browser.js",
+      "issuerId": 67,
+      "issuerName": "./node_modules/readable-stream/duplex-browser.js",
       "issuerPath": [
         {
           "id": null,
@@ -11797,8 +11797,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -11821,9 +11821,9 @@
           "name": "./node_modules/stream-browserify/index.js"
         },
         {
-          "id": 18,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/readable-stream/readable-browser.js",
-          "name": "./node_modules/readable-stream/readable-browser.js"
+          "id": 67,
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/readable-stream/duplex-browser.js",
+          "name": "./node_modules/readable-stream/duplex-browser.js"
         }
       ],
       "failed": false,
@@ -11934,8 +11934,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -12071,8 +12071,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -12178,9 +12178,9 @@
       "chunks": [
         0
       ],
-      "issuer": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
+      "issuer": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
       "issuerId": null,
-      "issuerName": "./src/assets/erc20.js",
+      "issuerName": "./src/assets/network.js",
       "issuerPath": [
         {
           "id": null,
@@ -12194,8 +12194,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         }
       ],
       "failed": false,
@@ -12300,8 +12300,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -12393,9 +12393,9 @@
       "chunks": [
         0
       ],
-      "issuer": "/Users/monokh/Code/cryptoassets/node_modules/readable-stream/lib/_stream_readable.js",
-      "issuerId": 24,
-      "issuerName": "./node_modules/readable-stream/lib/_stream_readable.js",
+      "issuer": "/Users/monokh/Code/cryptoassets/node_modules/readable-stream/lib/_stream_duplex.js",
+      "issuerId": 6,
+      "issuerName": "./node_modules/readable-stream/lib/_stream_duplex.js",
       "issuerPath": [
         {
           "id": null,
@@ -12409,8 +12409,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -12433,14 +12433,14 @@
           "name": "./node_modules/stream-browserify/index.js"
         },
         {
-          "id": 18,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/readable-stream/readable-browser.js",
-          "name": "./node_modules/readable-stream/readable-browser.js"
+          "id": 67,
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/readable-stream/duplex-browser.js",
+          "name": "./node_modules/readable-stream/duplex-browser.js"
         },
         {
-          "id": 24,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/readable-stream/lib/_stream_readable.js",
-          "name": "./node_modules/readable-stream/lib/_stream_readable.js"
+          "id": 6,
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/readable-stream/lib/_stream_duplex.js",
+          "name": "./node_modules/readable-stream/lib/_stream_duplex.js"
         }
       ],
       "failed": false,
@@ -12533,8 +12533,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -12657,8 +12657,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -12741,9 +12741,9 @@
       "chunks": [
         0
       ],
-      "issuer": "/Users/monokh/Code/cryptoassets/node_modules/readable-stream/lib/_stream_readable.js",
-      "issuerId": 24,
-      "issuerName": "./node_modules/readable-stream/lib/_stream_readable.js",
+      "issuer": "/Users/monokh/Code/cryptoassets/node_modules/readable-stream/lib/_stream_duplex.js",
+      "issuerId": 6,
+      "issuerName": "./node_modules/readable-stream/lib/_stream_duplex.js",
       "issuerPath": [
         {
           "id": null,
@@ -12757,8 +12757,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -12781,14 +12781,14 @@
           "name": "./node_modules/stream-browserify/index.js"
         },
         {
-          "id": 18,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/readable-stream/readable-browser.js",
-          "name": "./node_modules/readable-stream/readable-browser.js"
+          "id": 67,
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/readable-stream/duplex-browser.js",
+          "name": "./node_modules/readable-stream/duplex-browser.js"
         },
         {
-          "id": 24,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/readable-stream/lib/_stream_readable.js",
-          "name": "./node_modules/readable-stream/lib/_stream_readable.js"
+          "id": 6,
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/readable-stream/lib/_stream_duplex.js",
+          "name": "./node_modules/readable-stream/lib/_stream_duplex.js"
         }
       ],
       "failed": false,
@@ -12872,8 +12872,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -13059,8 +13059,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -13155,8 +13155,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -13251,8 +13251,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -13352,8 +13352,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -13443,8 +13443,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -13544,8 +13544,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -13621,8 +13621,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -13703,8 +13703,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -13795,8 +13795,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -13892,8 +13892,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -13989,8 +13989,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -14065,9 +14065,9 @@
       "chunks": [
         0
       ],
-      "issuer": "/Users/monokh/Code/cryptoassets/node_modules/secp256k1/lib/elliptic/index.js",
-      "issuerId": 78,
-      "issuerName": "./node_modules/secp256k1/lib/elliptic/index.js",
+      "issuer": "/Users/monokh/Code/cryptoassets/node_modules/secp256k1/lib/index.js",
+      "issuerId": 74,
+      "issuerName": "./node_modules/secp256k1/lib/index.js",
       "issuerPath": [
         {
           "id": null,
@@ -14081,8 +14081,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -14095,9 +14095,9 @@
           "name": "./node_modules/secp256k1/elliptic.js"
         },
         {
-          "id": 78,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/secp256k1/lib/elliptic/index.js",
-          "name": "./node_modules/secp256k1/lib/elliptic/index.js"
+          "id": 74,
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/secp256k1/lib/index.js",
+          "name": "./node_modules/secp256k1/lib/index.js"
         }
       ],
       "failed": false,
@@ -14200,8 +14200,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -14272,8 +14272,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -14354,8 +14354,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -14436,8 +14436,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -14518,8 +14518,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -14610,8 +14610,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -14717,8 +14717,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -14819,8 +14819,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -14921,8 +14921,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -15815,8 +15815,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -15883,8 +15883,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -15950,8 +15950,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -16013,8 +16013,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -16076,8 +16076,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -16144,8 +16144,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -16217,8 +16217,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -16290,8 +16290,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -16363,8 +16363,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -16450,8 +16450,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -16538,8 +16538,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -16630,8 +16630,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -16718,8 +16718,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -16811,8 +16811,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -16899,8 +16899,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -16982,8 +16982,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -17060,8 +17060,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -17138,8 +17138,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -17216,8 +17216,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -17294,8 +17294,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -17367,8 +17367,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -17435,8 +17435,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -17508,8 +17508,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -17571,8 +17571,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -17639,8 +17639,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -17712,8 +17712,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -17785,8 +17785,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -17863,8 +17863,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -17931,8 +17931,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -17999,8 +17999,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -18067,8 +18067,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -18135,8 +18135,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -18208,8 +18208,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -18281,8 +18281,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -18354,8 +18354,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -18427,8 +18427,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -18495,8 +18495,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -18603,8 +18603,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -18681,8 +18681,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -18759,8 +18759,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -18841,8 +18841,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -18924,8 +18924,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -19007,8 +19007,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -19090,8 +19090,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -19173,8 +19173,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -19251,8 +19251,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -19339,8 +19339,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -19432,8 +19432,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -19525,8 +19525,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -19618,8 +19618,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -19706,8 +19706,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -19794,8 +19794,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -19877,8 +19877,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -19955,8 +19955,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -20038,8 +20038,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -20121,8 +20121,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -20204,8 +20204,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -20282,8 +20282,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -20365,8 +20365,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -20448,8 +20448,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -20511,8 +20511,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -20579,8 +20579,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -20652,8 +20652,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,
@@ -20715,8 +20715,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/erc20.js",
-          "name": "./src/assets/erc20.js"
+          "identifier": "/Users/monokh/Code/cryptoassets/node_modules/babel-loader/lib/index.js??ref--4!/Users/monokh/Code/cryptoassets/src/assets/network.js",
+          "name": "./src/assets/network.js"
         },
         {
           "id": 9,

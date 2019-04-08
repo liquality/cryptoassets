@@ -12,10 +12,21 @@ Crypto assets data and utilities through a standard inteface
 ## Installation
 
 ```bash
-npm install cryptoassets --save
+npm install @liquality/cryptoassets --save
 ```
 
 ## Usage
+
+```
+> const cryptoassets = require('@liquality/cryptoassets')
+> cryptoassets.btc.code
+BTC
+> cryptoassets.eth.isValidAddress('0x5A0b54D5dc17e0AadC383d2db43B0a0D3E029c4c)
+true
+> cryptoassets.btc.currencyToUnit(1)
+100000000
+
+```
 
 ## License
 
