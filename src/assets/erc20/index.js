@@ -1,7 +1,8 @@
+import _ from 'lodash'
 import * as ethUtil from 'ethereumjs-util'
 import tokensData from './tokens.json'
 
-const tokens = tokensData.map(tokenData => ({
+const tokens = _.mapValues(tokensData, tokenData => ({
   ...tokenData,
   type: 'erc20',
   isValidAddress: ethUtil.isValidAddress,
