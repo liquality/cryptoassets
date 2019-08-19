@@ -1,4 +1,5 @@
 import * as ethUtil from 'ethereumjs-util'
+import validateBitcoinAddress from 'bitcoin-address-validation'
 
 export default {
   'btc': {
@@ -7,7 +8,7 @@ export default {
     code: 'BTC',
     decimals: 8,
     // TODO: include network types in validation
-    isValidAddress: address => /^[13mn][a-km-zA-HJ-NP-Z1-9]{25,34}$/.test(address),
+    isValidAddress: (address) => !!validateBitcoinAddress(address),
     formatAddress: address => address
   },
   'eth': {

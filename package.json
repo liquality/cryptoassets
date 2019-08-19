@@ -39,6 +39,7 @@
   "dependencies": {
     "@babel/runtime": "^7.4.3",
     "bignumber.js": "^8.0.1",
+    "bitcoin-address-validation": "^0.2.9",
     "ethereumjs-util": "^6.1.0",
     "lodash": "^4.17.11"
   },
