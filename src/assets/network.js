@@ -12,7 +12,7 @@ export default {
     formatAddress: address => address
   },
   'eth': {
-    name: 'Ethereum',
+    name: 'Ether',
     type: 'network',
     code: 'ETH',
     decimals: 18,
