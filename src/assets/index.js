@@ -10,8 +10,8 @@ let assets = {
 
 function withCurrencyConverters (asset) {
   const multiplier = BigNumber(10).pow(asset.decimals)
-  asset.unitToCurrency = value => BigNumber(value).dividedBy(multiplier).toNumber()
-  asset.currencyToUnit = value => BigNumber(value).times(multiplier).toNumber()
+  asset.unitToCurrency = value => BigNumber(value).dividedBy(multiplier)
+  asset.currencyToUnit = value => BigNumber(value).times(multiplier)
   return asset
 }
 
