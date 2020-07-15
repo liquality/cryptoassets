@@ -7,6 +7,9 @@ export default {
     type: 'network',
     code: 'BTC',
     decimals: 8,
+    fees: {
+      unit: 'sat/b'
+    },
     // TODO: include network types in validation
     isValidAddress: (address) => !!validateBitcoinAddress(address),
     formatAddress: address => address
@@ -16,6 +19,9 @@ export default {
     type: 'network',
     code: 'ETH',
     decimals: 18,
+    fees: {
+      unit: 'gwei'
+    },
     isValidAddress: ethUtil.isValidAddress,
     formatAddress: ethUtil.toChecksumAddress
   }
