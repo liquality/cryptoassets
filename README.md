@@ -25,6 +25,10 @@ BTC
 true
 > cryptoassets.btc.currencyToUnit(1)
 100000000
+> cryptoassets.eth.decimals
+18
+> cryptoassets.btc.fees.unit
+sat/b
 
 ```
 
