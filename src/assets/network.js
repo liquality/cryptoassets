@@ -6,6 +6,7 @@ export default {
     name: 'Bitcoin',
     type: 'network',
     code: 'BTC',
+    color: '#f7931a',
     decimals: 8,
     fees: {
       unit: 'sat/b'
@@ -18,6 +19,7 @@ export default {
     name: 'Ether',
     type: 'network',
     code: 'ETH',
+    color: '#627eea',
     decimals: 18,
     fees: {
       unit: 'gwei'
