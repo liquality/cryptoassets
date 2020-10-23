@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.com/liquality/cryptoassets.svg?branch=master)](https://travis-ci.com/liquality/cryptoassets)
 [![Standard Code Style](https://img.shields.io/badge/codestyle-standard-brightgreen.svg)](https://github.com/standard/standard)
 [![MIT License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](./LICENSE.md)
-[![Cryptoassets](https://img.shields.io/npm/dt/@liquality/cryptoassets.svg)](https://npmjs.com/package/@liquality/crpytoassets)
+[![Cryptoassets](https://img.shields.io/npm/dt/@liquality/cryptoassets.svg)](https://npmjs.com/package/@liquality/cryptoassets)
 
 > :warning: This project is under heavy development. Expect bugs & breaking changes.
 
@@ -19,15 +19,15 @@ npm install @liquality/cryptoassets --save
 
 ```
 > const cryptoassets = require('@liquality/cryptoassets')
-> cryptoassets.btc.code
+> cryptoassets.BTC.code
 BTC
-> cryptoassets.eth.isValidAddress('0x5A0b54D5dc17e0AadC383d2db43B0a0D3E029c4c)
+> cryptoassets.ETH.isValidAddress('0x5A0b54D5dc17e0AadC383d2db43B0a0D3E029c4c)
 true
-> cryptoassets.btc.currencyToUnit(1)
+> cryptoassets.BTC.currencyToUnit(1)
 100000000
-> cryptoassets.eth.decimals
+> cryptoassets.ETH.decimals
 18
-> cryptoassets.btc.fees.unit
+> cryptoassets.BTC.fees.unit
 sat/b
 
 ```

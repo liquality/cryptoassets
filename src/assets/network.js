@@ -2,7 +2,7 @@ import * as ethUtil from 'ethereumjs-util'
 import validateBitcoinAddress from 'bitcoin-address-validation'
 
 export default {
-  'btc': {
+  BTC: {
     name: 'Bitcoin',
     type: 'network',
     code: 'BTC',
@@ -15,7 +15,7 @@ export default {
     isValidAddress: (address) => !!validateBitcoinAddress(address),
     formatAddress: address => address
   },
-  'eth': {
+  ETH: {
     name: 'Ether',
     type: 'network',
     code: 'ETH',

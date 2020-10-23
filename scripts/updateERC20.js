@@ -1,40 +1,32 @@
 
 const fs = require('fs')
-const request = require('request')
+const axios = require('axios')
 
-/**
- * Download the master branch of ethereum list: https://github.com/ethereum-lists/tokens
- * Extract it into the `tokens-master` directory. Path configured below.
- */
-
-const tokensPath = './tokens-master/tokens/eth/'
 const dataPath = './src/assets/erc20/tokens.json'
 
-const tokens = {}
+;(async () => {
+  const manifestResult = await axios.get('https://raw.githubusercontent.com/spothq/cryptocurrency-icons/master/manifest.json')
+  const manifest = manifestResult.data
+  const metadataResult = await axios.get('https://raw.githubusercontent.com/MetaMask/eth-contract-metadata/master/contract-map.json')
+  const metadataMap = metadataResult.data
 
-request('https://raw.githubusercontent.com/spothq/cryptocurrency-icons/master/manifest.json', function (error, response, body) {
-  if (error) console.log(error)
-  const manifest = JSON.parse(body)
-
-  fs.readdir(tokensPath, (err, files) => {
-    if (err) console.log(`Error: ${err}`)
-
-    files.forEach(file => {
-      const tokenData = JSON.parse(fs.readFileSync(`${tokensPath}${file}`, { encoding: 'utf-8' }))
-      const assetManifest = manifest.find(asset => asset.symbol === tokenData.symbol)
+  const tokens = {}
+  Object.entries(metadataMap)
+    .filter(([, data]) => data.erc20)
+    .forEach(([contractAddress, metadata]) => {
       const data = {
-        name: tokenData.name,
-        code: tokenData.symbol,
-        decimals: tokenData.decimals
+        name: metadata.name,
+        code: metadata.symbol,
+        decimals: metadata.decimals,
+        contractAddress
       }
+      const assetManifest = manifest.find(asset => asset.symbol === metadata.symbol)
       if (assetManifest) {
         data.color = assetManifest.color
       }
-      tokens[tokenData.symbol.toLowerCase()] = data
+      tokens[metadata.symbol] = data
     })
 
-    fs.writeFileSync(dataPath, JSON.stringify(tokens, null, 2))
-
-    console.log(`Updated tokens file @ ${dataPath}`)
-  })
-})
+  fs.writeFileSync(dataPath, JSON.stringify(tokens, null, 2))
+  console.log(`Updated tokens file @ ${dataPath}`)
+})()
