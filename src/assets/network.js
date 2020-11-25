@@ -26,5 +26,17 @@ export default {
     },
     isValidAddress: ethUtil.isValidAddress,
     formatAddress: ethUtil.toChecksumAddress
+  },
+  RBTC: {
+    name: 'Rootstock',
+    type: 'network',
+    code: 'RBTC',
+    color: '#006e3c',
+    decimals: 18,
+    fees: {
+      unit: 'gwei'
+    },
+    isValidAddress: ethUtil.isValidAddress,
+    formatAddress: ethUtil.toChecksumAddress
   }
 }
