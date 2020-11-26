@@ -6,6 +6,7 @@ export default {
     name: 'Bitcoin',
     type: 'network',
     code: 'BTC',
+    coinGeckoId: 'bitcoin',
     color: '#f7931a',
     decimals: 8,
     fees: {
@@ -19,6 +20,7 @@ export default {
     name: 'Ether',
     type: 'network',
     code: 'ETH',
+    coinGeckoId: 'ethereum',
     color: '#627eea',
     decimals: 18,
     fees: {
@@ -31,6 +33,7 @@ export default {
     name: 'Rootstock',
     type: 'network',
     code: 'RBTC',
+    coinGeckoId: 'rootstock',
     color: '#006e3c',
     decimals: 18,
     fees: {
