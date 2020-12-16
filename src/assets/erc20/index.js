@@ -1,5 +1,5 @@
 import _ from 'lodash'
-import * as ethUtil from 'ethereumjs-util'
+import { isValidAddress, toChecksumAddress } from 'ethereumjs-util'
 import tokensData from './tokens.json'
 
 const tokens = _.mapValues(tokensData, tokenData => ({
@@ -8,8 +8,8 @@ const tokens = _.mapValues(tokensData, tokenData => ({
   fees: {
     unit: 'gwei'
   },
-  isValidAddress: ethUtil.isValidAddress,
-  formatAddress: ethUtil.toChecksumAddress
+  isValidAddress: isValidAddress,
+  formatAddress: toChecksumAddress
 }))
 
 export default tokens

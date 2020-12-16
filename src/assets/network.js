@@ -1,4 +1,4 @@
-import * as ethUtil from 'ethereumjs-util'
+import { isValidAddress, toChecksumAddress } from 'ethereumjs-util'
 import validateBitcoinAddress from 'bitcoin-address-validation'
 
 export default {
@@ -13,7 +13,7 @@ export default {
       unit: 'sat/b'
     },
     // TODO: include network types in validation
-    isValidAddress: (address) => !!validateBitcoinAddress(address),
+    isValidAddress: address => !!validateBitcoinAddress(address),
     formatAddress: address => address
   },
   ETH: {
@@ -26,8 +26,8 @@ export default {
     fees: {
       unit: 'gwei'
     },
-    isValidAddress: ethUtil.isValidAddress,
-    formatAddress: ethUtil.toChecksumAddress
+    isValidAddress: isValidAddress,
+    formatAddress: toChecksumAddress
   },
   RBTC: {
     name: 'Rootstock',
@@ -39,7 +39,7 @@ export default {
     fees: {
       unit: 'gwei'
     },
-    isValidAddress: ethUtil.isValidAddress,
-    formatAddress: ethUtil.toChecksumAddress
+    isValidAddress: isValidAddress,
+    formatAddress: toChecksumAddress
   }
 }

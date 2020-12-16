@@ -1,4 +1,4 @@
-import _ from 'lodash'
+import { mapValues } from 'lodash'
 import BigNumber from 'bignumber.js'
 import networkAssets from './network'
 import erc20Assets from './erc20'
@@ -15,6 +15,6 @@ function withCurrencyConverters (asset) {
   return asset
 }
 
-assets = _.mapValues(assets, withCurrencyConverters)
+assets = mapValues(assets, withCurrencyConverters)
 
 export default assets
