@@ -2,7 +2,7 @@ const fs = require('fs')
 const axios = require('axios')
 
 const sleep = async (millis) => new Promise(resolve => setTimeout(resolve, millis))
-const dataPath = './src/assets/erc20/tokens.json'
+const dataPath = './src/assets/erc20/ethereum-tokens.json'
 
 ;(async () => {
   const manifestResult = await axios.get('https://raw.githubusercontent.com/spothq/cryptocurrency-icons/master/manifest.json')
@@ -18,6 +18,7 @@ const dataPath = './src/assets/erc20/tokens.json'
     if (!metadata.erc20) continue
     const data = {
       name: metadata.name,
+      network: 'ethereum',
       code: metadata.symbol,
       decimals: metadata.decimals,
       contractAddress

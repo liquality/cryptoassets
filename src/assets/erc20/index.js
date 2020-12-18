@@ -1,8 +1,9 @@
 import _ from 'lodash'
 import { isValidAddress, toChecksumAddress } from 'ethereumjs-util'
-import tokensData from './tokens.json'
+import ethereumTokens from './ethereum-tokens.json'
+import rskTokens from './rsk-tokens.json'
 
-const tokens = _.mapValues(tokensData, tokenData => ({
+const tokens = _.mapValues({ ...rskTokens, ...ethereumTokens }, tokenData => ({
   ...tokenData,
   type: 'erc20',
   fees: {
