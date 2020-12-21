@@ -12,6 +12,7 @@ export default {
     fees: {
       unit: 'sat/b'
     },
+    safeConfirmations: 1,
     // TODO: include network types in validation
     isValidAddress: address => !!validateBitcoinAddress(address),
     formatAddress: address => address
@@ -26,6 +27,7 @@ export default {
     fees: {
       unit: 'gwei'
     },
+    safeConfirmations: 3,
     isValidAddress: isValidAddress,
     formatAddress: toChecksumAddress
   },
@@ -39,6 +41,7 @@ export default {
     fees: {
       unit: 'gwei'
     },
+    safeConfirmations: 5,
     isValidAddress: isValidAddress,
     formatAddress: toChecksumAddress
   }

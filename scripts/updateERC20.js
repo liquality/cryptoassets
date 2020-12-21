@@ -18,7 +18,6 @@ const dataPath = './src/assets/erc20/ethereum-tokens.json'
     if (!metadata.erc20) continue
     const data = {
       name: metadata.name,
-      network: 'ethereum',
       code: metadata.symbol,
       decimals: metadata.decimals,
       contractAddress

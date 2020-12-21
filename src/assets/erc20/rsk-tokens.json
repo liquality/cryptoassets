@@ -1,9 +1,8 @@
 {
   "DOC": {
     "name": "Dollar On Chain",
-    "network": "rsk",
     "code": "DOC",
-    "decimals": 19,
+    "decimals": 18,
     "contractAddress": "0xe700691da7b9851f2f35f8b8182c69c53ccad9db"
   }
 }
