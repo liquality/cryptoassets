@@ -16,8 +16,6 @@ const ethereumTokensData = _.mapValues(ethereumTokens, tokenData => ({
   safeConfirmations: networkAssets.ETH.safeConfirmations
 }))
 
-console.log(rskTokensData)
-
 const tokens = _.mapValues({ ...rskTokensData, ...ethereumTokensData }, tokenData => ({
   ...tokenData,
   type: 'erc20',
