@@ -1,12 +1,5 @@
 import { mapValues } from 'lodash'
 import BigNumber from 'bignumber.js'
-import networkAssets from './network'
-import erc20Assets from './erc20'
-
-let assets = {
-  ...networkAssets,
-  ...erc20Assets
-}
 
 function withCurrencyConverters (asset) {
   const multiplier = BigNumber(10).pow(asset.decimals)
@@ -15,6 +8,4 @@ function withCurrencyConverters (asset) {
   return asset
 }
 
-assets = mapValues(assets, withCurrencyConverters)
-
-export default assets
+export const mapCurrencyConverters = (assets) => mapValues(assets, withCurrencyConverters)
