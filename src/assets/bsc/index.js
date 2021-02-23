@@ -8,7 +8,7 @@ const tokens = _.mapValues(tokensData, token => ({
   ...token,
   network: 'bsc',
   safeConfirmations: networkAsset.safeConfirmations,
-  type: 'bep20',
+  type: 'erc20',
   fees: {
     unit: 'gwei'
   },
