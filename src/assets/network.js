@@ -44,5 +44,19 @@ export default {
     safeConfirmations: 5,
     isValidAddress: isValidAddress,
     formatAddress: toChecksumAddress
+  },
+  BNB: {
+    name: 'Binance Smart Chain',
+    type: 'network',
+    code: 'BNB',
+    coinGeckoId: 'binance-coin',
+    color: '#f9a825',
+    decimals: 18,
+    fees: {
+      unit: 'gwei'
+    },
+    safeConfirmations: 5,
+    isValidAddress: isValidAddress,
+    formatAddress: toChecksumAddress
   }
 }
