@@ -33,5 +33,12 @@
     "decimals": 18,
     "contractAddress": "0xf4d27c56595ed59b66cc7f03cff5193e4bd74a61",
     "color": "#0083ff"
+  },
+  "SOV": {
+    "name": "Sovryn",
+    "code": "SOV",
+    "decimals": 18,
+    "contractAddress": "0xefc78fc7d48b64958315949279ba181c2114abbd",
+    "color": "#000000"
   }
 }
