@@ -58,5 +58,20 @@ export default {
     safeConfirmations: 5,
     isValidAddress: isValidAddress,
     formatAddress: toChecksumAddress
+  },
+  NEAR: {
+    name: 'Near',
+    type: 'network',
+    code: 'NEAR',
+    coinGeckoId: 'near',
+    color: '#000000',
+    decimals: 24,
+    fees: {
+      unit: 'TGas'
+    },
+    safeConfirmations: 1,
+    // TODO find the right validator and address formatter
+    isValidAddress: address => address,
+    formatAddress: address => address
   }
 }
