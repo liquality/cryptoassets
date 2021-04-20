@@ -16,7 +16,8 @@ export enum ChainId {
   Bitcoin = 'bitcoin',
   Ethereum = 'ethereum',
   Rootstock = 'rsk',
-  BinanceSmartChain = 'bsc'
+  BinanceSmartChain = 'bsc',
+  Near = 'near'
 }
 
 export interface Asset {

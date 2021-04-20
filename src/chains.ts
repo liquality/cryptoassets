@@ -47,6 +47,17 @@ const chains: { [key in ChainId]: Chain } = {
     safeConfirmations: 5,
     isValidAddress: isValidAddress,
     formatAddress: toChecksumAddress
+  },
+  [ChainId.Near]: {
+    name: 'Near',
+    code: 'NEAR',
+    nativeAsset: 'NEAR',
+    fees: {
+      unit: 'TGas'
+    },
+    safeConfirmations: 10,
+    isValidAddress: (address) => address.endsWith('.near') || /^[0-9a-fA-F]{64}$/.test(address),
+    formatAddress: (address) => address
   }
 }
 

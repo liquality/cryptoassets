@@ -36,6 +36,15 @@ const nativeAssets: { [index: string]: Asset } = {
     coinGeckoId: 'binancecoin',
     color: '#f9a825',
     decimals: 18
+  },
+  NEAR: {
+    name: 'Near',
+    chain: ChainId.Near,
+    type: 'native',
+    code: 'NEAR',
+    coinGeckoId: 'near',
+    color: '#000000',
+    decimals: 24
   }
 }
 
