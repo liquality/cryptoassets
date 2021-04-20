@@ -5,8 +5,6 @@
 [![MIT License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](./LICENSE.md)
 [![Cryptoassets](https://img.shields.io/npm/dt/@liquality/cryptoassets.svg)](https://npmjs.com/package/@liquality/cryptoassets)
 
-> :warning: This project is under heavy development. Expect bugs & breaking changes.
-
 Crypto assets data and utilities through a standard inteface
 
 ## Installation
@@ -18,17 +16,19 @@ npm install @liquality/cryptoassets --save
 ## Usage
 
 ```
-> const cryptoassets = require('@liquality/cryptoassets')
-> cryptoassets.BTC.code
+> const { assets, chains, currencyToUnit } = require('@liquality/cryptoassets')
+> assets.BTC.code
 BTC
-> cryptoassets.ETH.isValidAddress('0x5A0b54D5dc17e0AadC383d2db43B0a0D3E029c4c)
-true
-> cryptoassets.BTC.currencyToUnit(1)
-100000000
-> cryptoassets.ETH.decimals
+> assets.ETH.decimals
 18
-> cryptoassets.BTC.fees.unit
+> currencyToUnit(assets.BTC, 1)
+100000000
+> chains.ethereum.safeConfirmations
+3
+> chains[assets.btc.chain].fees.unit
 sat/b
+> chains[assets.eth.chain].isValidAddress('0x5A0b54D5dc17e0AadC383d2db43B0a0D3E029c4c)
+true
 
 ```
 
