@@ -1,29 +1,24 @@
+import { Chain, ChainId } from './types'
 import { isValidAddress, toChecksumAddress } from 'ethereumjs-util'
 import validateBitcoinAddress from 'bitcoin-address-validation'
 
-export default {
-  BTC: {
+const chains: { [key in ChainId]: Chain } = {
+  [ChainId.Bitcoin]: {
     name: 'Bitcoin',
-    type: 'network',
     code: 'BTC',
-    coinGeckoId: 'bitcoin',
-    color: '#f7931a',
-    decimals: 8,
+    nativeAsset: 'BTC',
     fees: {
       unit: 'sat/b'
     },
     safeConfirmations: 1,
     // TODO: include network types in validation
-    isValidAddress: address => !!validateBitcoinAddress(address),
-    formatAddress: address => address
+    isValidAddress: (address) => !!validateBitcoinAddress(address),
+    formatAddress: (address) => address
   },
-  ETH: {
-    name: 'Ether',
-    type: 'network',
+  [ChainId.Ethereum]: {
+    name: 'Ethereum',
     code: 'ETH',
-    coinGeckoId: 'ethereum',
-    color: '#627eea',
-    decimals: 18,
+    nativeAsset: 'ETH',
     fees: {
       unit: 'gwei'
     },
@@ -31,13 +26,10 @@ export default {
     isValidAddress: isValidAddress,
     formatAddress: toChecksumAddress
   },
-  RBTC: {
+  [ChainId.Rootstock]: {
     name: 'Rootstock',
-    type: 'network',
-    code: 'RBTC',
-    coinGeckoId: 'rootstock',
-    color: '#006e3c',
-    decimals: 18,
+    code: 'RSK',
+    nativeAsset: 'RBTC',
     fees: {
       unit: 'gwei'
     },
@@ -45,13 +37,10 @@ export default {
     isValidAddress: isValidAddress,
     formatAddress: toChecksumAddress
   },
-  BNB: {
+  [ChainId.BinanceSmartChain]: {
     name: 'Binance Smart Chain',
-    type: 'network',
-    code: 'BNB',
-    coinGeckoId: 'binancecoin',
-    color: '#f9a825',
-    decimals: 18,
+    code: 'BSC',
+    nativeAsset: 'BNB',
     fees: {
       unit: 'gwei'
     },
@@ -60,3 +49,5 @@ export default {
     formatAddress: toChecksumAddress
   }
 }
+
+export { chains }

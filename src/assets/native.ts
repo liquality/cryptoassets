@@ -1,0 +1,42 @@
+import { Asset, ChainId } from '../types'
+
+const nativeAssets: { [index: string]: Asset } = {
+  BTC: {
+    name: 'Bitcoin',
+    chain: ChainId.Bitcoin,
+    type: 'native',
+    code: 'BTC',
+    coinGeckoId: 'bitcoin',
+    color: '#f7931a',
+    decimals: 8
+  },
+  ETH: {
+    name: 'Ether',
+    chain: ChainId.Ethereum,
+    type: 'native',
+    code: 'ETH',
+    coinGeckoId: 'ethereum',
+    color: '#627eea',
+    decimals: 18
+  },
+  RBTC: {
+    name: 'Rootstock BTC',
+    chain: ChainId.Rootstock,
+    type: 'native',
+    code: 'RBTC',
+    coinGeckoId: 'rootstock',
+    color: '#006e3c',
+    decimals: 18
+  },
+  BNB: {
+    name: 'Binance Coin',
+    chain: ChainId.BinanceSmartChain,
+    type: 'native',
+    code: 'BNB',
+    coinGeckoId: 'binancecoin',
+    color: '#f9a825',
+    decimals: 18
+  }
+}
+
+export default nativeAssets
