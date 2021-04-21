@@ -8,6 +8,8 @@ export interface Chain {
   safeConfirmations: number
   isValidAddress: (address: string) => boolean
   formatAddress: (address: string) => string
+  isValidTransactionHash: (hash: string) => boolean
+  formatTransactionHash: (hash: string) => string
 }
 
 export type AssetType = 'native' | 'erc20'
