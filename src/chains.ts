@@ -2,7 +2,7 @@ import { isValidAddress, toChecksumAddress } from 'ethereumjs-util'
 import validateBitcoinAddress from 'bitcoin-address-validation'
 
 import { Chain, ChainId } from './types'
-import { isBase58, isValidHex, toLowerCaseWithout0x } from './common'
+import { isValidNearTx, isValidNearAddress, isValidHex, toLowerCaseWithout0x } from './common'
 
 const chains: { [key in ChainId]: Chain } = {
   [ChainId.Bitcoin]: {
@@ -66,9 +66,9 @@ const chains: { [key in ChainId]: Chain } = {
       unit: 'TGas'
     },
     safeConfirmations: 10,
-    isValidAddress: (address) => address.endsWith('.near') || /^[0-9a-fA-F]{64}$/.test(address),
+    isValidAddress: (address) => isValidNearAddress(address),
     formatAddress: (address) => address,
-    isValidTransactionHash: (hash: string) => isBase58(hash, '_'),
+    isValidTransactionHash: (hash: string) => isValidNearTx(hash),
     formatTransactionHash: (hash: string) => hash
   }
 }
