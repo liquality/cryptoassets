@@ -1,6 +1,8 @@
-import { Chain, ChainId } from './types'
 import { isValidAddress, toChecksumAddress } from 'ethereumjs-util'
 import validateBitcoinAddress from 'bitcoin-address-validation'
+
+import { Chain, ChainId } from './types'
+import { isValidNearTx, isValidNearAddress, isValidHex, toLowerCaseWithout0x } from './common'
 
 const chains: { [key in ChainId]: Chain } = {
   [ChainId.Bitcoin]: {
@@ -13,7 +15,9 @@ const chains: { [key in ChainId]: Chain } = {
     safeConfirmations: 1,
     // TODO: include network types in validation
     isValidAddress: (address) => !!validateBitcoinAddress(address),
-    formatAddress: (address) => address
+    formatAddress: (address) => address,
+    isValidTransactionHash: (hash: string) => isValidHex(hash),
+    formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
   },
   [ChainId.Ethereum]: {
     name: 'Ethereum',
@@ -24,7 +28,9 @@ const chains: { [key in ChainId]: Chain } = {
     },
     safeConfirmations: 3,
     isValidAddress: isValidAddress,
-    formatAddress: toChecksumAddress
+    formatAddress: toChecksumAddress,
+    isValidTransactionHash: (hash: string) => isValidHex(hash),
+    formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
   },
   [ChainId.Rootstock]: {
     name: 'Rootstock',
@@ -35,7 +41,9 @@ const chains: { [key in ChainId]: Chain } = {
     },
     safeConfirmations: 5,
     isValidAddress: isValidAddress,
-    formatAddress: toChecksumAddress
+    formatAddress: toChecksumAddress,
+    isValidTransactionHash: (hash: string) => isValidHex(hash),
+    formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
   },
   [ChainId.BinanceSmartChain]: {
     name: 'Binance Smart Chain',
@@ -46,7 +54,9 @@ const chains: { [key in ChainId]: Chain } = {
     },
     safeConfirmations: 5,
     isValidAddress: isValidAddress,
-    formatAddress: toChecksumAddress
+    formatAddress: toChecksumAddress,
+    isValidTransactionHash: (hash: string) => isValidHex(hash),
+    formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
   },
   [ChainId.Near]: {
     name: 'Near',
@@ -56,8 +66,10 @@ const chains: { [key in ChainId]: Chain } = {
       unit: 'TGas'
     },
     safeConfirmations: 10,
-    isValidAddress: (address) => address.endsWith('.near') || /^[0-9a-fA-F]{64}$/.test(address),
-    formatAddress: (address) => address
+    isValidAddress: (address) => isValidNearAddress(address),
+    formatAddress: (address) => address,
+    isValidTransactionHash: (hash: string) => isValidNearTx(hash),
+    formatTransactionHash: (hash: string) => hash
   }
 }
 
