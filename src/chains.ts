@@ -73,4 +73,8 @@ const chains: { [key in ChainId]: Chain } = {
   }
 }
 
-export { chains }
+function isEthereumChain(chain: ChainId) {
+  return [ChainId.BinanceSmartChain, ChainId.Ethereum, ChainId.Rootstock].includes(chain)
+}
+
+export { chains, isEthereumChain }
