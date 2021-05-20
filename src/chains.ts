@@ -70,11 +70,24 @@ const chains: { [key in ChainId]: Chain } = {
     formatAddress: (address) => address,
     isValidTransactionHash: (hash: string) => isValidNearTx(hash),
     formatTransactionHash: (hash: string) => hash
+  },
+  [ChainId.Polygon]: {
+    name: 'Polygon',
+    code: 'POLYGON',
+    nativeAsset: 'POLYGON',
+    fees: {
+      unit: 'gwei'
+    },
+    safeConfirmations: 5,
+    isValidAddress: isValidAddress,
+    formatAddress: toChecksumAddress,
+    isValidTransactionHash: (hash: string) => isValidHex(hash),
+    formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
   }
 }
 
 function isEthereumChain(chain: ChainId) {
-  return [ChainId.BinanceSmartChain, ChainId.Ethereum, ChainId.Rootstock].includes(chain)
+  return [ChainId.BinanceSmartChain, ChainId.Ethereum, ChainId.Rootstock, ChainId.Polygon].includes(chain)
 }
 
 export { chains, isEthereumChain }

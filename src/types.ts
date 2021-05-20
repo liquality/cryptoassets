@@ -19,7 +19,8 @@ export enum ChainId {
   Ethereum = 'ethereum',
   Rootstock = 'rsk',
   BinanceSmartChain = 'bsc',
-  Near = 'near'
+  Near = 'near',
+  Polygon = 'polygon'
 }
 
 export interface Asset {

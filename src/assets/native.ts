@@ -45,6 +45,15 @@ const nativeAssets: { [index: string]: Asset } = {
     coinGeckoId: 'near',
     color: '#000000',
     decimals: 24
+  },
+  POLYGON: {
+    name: 'Polygon',
+    chain: ChainId.Polygon,
+    type: 'native',
+    code: 'POLYGON',
+    coinGeckoId: 'matic-network',
+    color: '#8247E5',
+    decimals: 18
   }
 }
 
