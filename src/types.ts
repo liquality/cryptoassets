@@ -16,6 +16,7 @@ export type AssetType = 'native' | 'erc20'
 
 export enum ChainId {
   Bitcoin = 'bitcoin',
+  BitcoinCash = 'bitcoin_cash',
   Ethereum = 'ethereum',
   Rootstock = 'rsk',
   BinanceSmartChain = 'bsc',
