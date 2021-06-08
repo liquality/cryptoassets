@@ -2,7 +2,14 @@ import { isValidAddress, toChecksumAddress } from 'ethereumjs-util'
 import validateBitcoinAddress from 'bitcoin-address-validation'
 
 import { Chain, ChainId } from './types'
-import { isValidNearTx, isValidNearAddress, isValidHex, toLowerCaseWithout0x } from './common'
+import {
+  isValidNearTx,
+  isValidNearAddress,
+  isValidBitcoinCashAddress,
+  formatBitcoinCashAddress,
+  isValidHex,
+  toLowerCaseWithout0x
+} from './common'
 
 const chains: { [key in ChainId]: Chain } = {
   [ChainId.Bitcoin]: {
@@ -16,6 +23,20 @@ const chains: { [key in ChainId]: Chain } = {
     // TODO: include network types in validation
     isValidAddress: (address) => !!validateBitcoinAddress(address),
     formatAddress: (address) => address,
+    isValidTransactionHash: (hash: string) => isValidHex(hash),
+    formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
+  },
+  [ChainId.BitcoinCash]: {
+    name: 'Bitcoin Cash',
+    code: 'BCH',
+    nativeAsset: 'BCH',
+    fees: {
+      unit: 'sat/b'
+    },
+    safeConfirmations: 1,
+    // TODO: include network types in validation
+    isValidAddress: (address) => isValidBitcoinCashAddress(address),
+    formatAddress: (address) => formatBitcoinCashAddress(address),
     isValidTransactionHash: (hash: string) => isValidHex(hash),
     formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
   },

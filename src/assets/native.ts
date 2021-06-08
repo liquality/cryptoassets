@@ -10,6 +10,15 @@ const nativeAssets: { [index: string]: Asset } = {
     color: '#f7931a',
     decimals: 8
   },
+  BCH: {
+    name: 'Bitcoin Cash',
+    chain: ChainId.BitcoinCash,
+    type: 'native',
+    code: 'BCH',
+    coinGeckoId: 'bitcoin-cash',
+    color: '#a1db5e',
+    decimals: 8
+  },
   ETH: {
     name: 'Ether',
     chain: ChainId.Ethereum,

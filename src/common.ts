@@ -1,4 +1,5 @@
 import base58 from 'bs58'
+import * as cashaddr from 'cashaddrjs'
 
 const BASE58_LENGTH = 32
 
@@ -13,4 +14,26 @@ export const isValidNearTx = (hash: string) => {
   } catch (e) {
     return false
   }
+}
+
+export const isValidBitcoinCashAddress = (address: string) => {
+  try {
+    if (!address.includes(':')) address = 'bitcoincash:' + address
+    const { prefix, type, hash } = cashaddr.decode(address)
+    if (['bitcoincash', 'bchtest', 'bchreg'].includes(prefix)) {
+      return false
+    }
+    if (['P2PKH', 'P2SH'].includes(type)) {
+      return false
+    }
+    return hash.length == 20
+  } catch (e) {
+    return false
+  }
+}
+
+export const formatBitcoinCashAddress = (address: string) => {
+  address = address.toLowerCase()
+  if (address.startsWith('bitcoincash:')) address = address.slice(12)
+  return address
 }
