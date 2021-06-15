@@ -95,7 +95,7 @@ const chains: { [key in ChainId]: Chain } = {
   [ChainId.Polygon]: {
     name: 'Polygon',
     code: 'POLYGON',
-    nativeAsset: 'POLYGON',
+    nativeAsset: 'MATIC',
     fees: {
       unit: 'gwei'
     },
