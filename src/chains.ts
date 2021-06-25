@@ -95,7 +95,20 @@ const chains: { [key in ChainId]: Chain } = {
   [ChainId.Polygon]: {
     name: 'Polygon',
     code: 'POLYGON',
-    nativeAsset: 'POLYGON',
+    nativeAsset: 'MATIC',
+    fees: {
+      unit: 'gwei'
+    },
+    safeConfirmations: 5,
+    isValidAddress: isValidAddress,
+    formatAddress: toChecksumAddress,
+    isValidTransactionHash: (hash: string) => isValidHex(hash),
+    formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
+  },
+  [ChainId.Arbitrum]: {
+    name: 'Arbitrum',
+    code: 'ARBITRUM',
+    nativeAsset: 'ARBETH',
     fees: {
       unit: 'gwei'
     },
@@ -108,7 +121,9 @@ const chains: { [key in ChainId]: Chain } = {
 }
 
 function isEthereumChain(chain: ChainId) {
-  return [ChainId.BinanceSmartChain, ChainId.Ethereum, ChainId.Rootstock, ChainId.Polygon].includes(chain)
+  return [ChainId.BinanceSmartChain, ChainId.Ethereum, ChainId.Rootstock, ChainId.Polygon, ChainId.Arbitrum].includes(
+    chain
+  )
 }
 
 export { chains, isEthereumChain }
