@@ -75,4 +75,8 @@ const nativeAssets: { [index: string]: Asset } = {
   }
 }
 
-export default nativeAssets
+const nativeCodeSynonyms = {
+  ARBETH: 'ETH'
+}
+
+export { nativeAssets, nativeCodeSynonyms }
