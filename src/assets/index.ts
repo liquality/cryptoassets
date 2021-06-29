@@ -1,4 +1,4 @@
-import { nativeAssets, nativeCodeSynonyms } from './native'
+import nativeAssets from './native'
 import erc20Assets from './erc20'
 
 const assets = {
@@ -6,4 +6,4 @@ const assets = {
   ...erc20Assets
 }
 
-export { assets, nativeCodeSynonyms }
+export default assets

@@ -34,4 +34,5 @@ export interface Asset {
   coinGeckoId?: string
   color?: string
   contractAddress?: string // ERC20 only
+  matchingAsset?: string
 }

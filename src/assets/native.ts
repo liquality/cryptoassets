@@ -71,12 +71,9 @@ const nativeAssets: { [index: string]: Asset } = {
     code: 'ARBETH',
     coinGeckoId: 'ethereum',
     color: '#28A0EF',
-    decimals: 18
+    decimals: 18,
+    matchingAsset: 'ETH'
   }
 }
 
-const nativeCodeSynonyms = {
-  ARBETH: 'ETH'
-}
-
-export { nativeAssets, nativeCodeSynonyms }
+export default nativeAssets

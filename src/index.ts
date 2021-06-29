@@ -1,5 +1,5 @@
 import BigNumber from 'bignumber.js'
-import { assets, nativeCodeSynonyms } from './assets'
+import assets from './assets'
 import { chains, isEthereumChain } from './chains'
 import { Asset } from './types'
 
@@ -13,4 +13,4 @@ function currencyToUnit(asset: Asset, value: number | BigNumber): BigNumber {
   return new BigNumber(value).times(multiplier)
 }
 
-export { assets, nativeCodeSynonyms, chains, isEthereumChain, unitToCurrency, currencyToUnit }
+export { assets, chains, isEthereumChain, unitToCurrency, currencyToUnit }
