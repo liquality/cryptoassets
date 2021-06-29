@@ -63,6 +63,16 @@ const nativeAssets: { [index: string]: Asset } = {
     coinGeckoId: 'matic-network',
     color: '#8247E5',
     decimals: 18
+  },
+  ARBETH: {
+    name: 'Arbitrum ETH',
+    chain: ChainId.Arbitrum,
+    type: 'native',
+    code: 'ARBETH',
+    coinGeckoId: 'ethereum',
+    color: '#28A0EF',
+    decimals: 18,
+    matchingAsset: 'ETH'
   }
 }
 

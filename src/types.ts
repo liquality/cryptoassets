@@ -21,7 +21,8 @@ export enum ChainId {
   Rootstock = 'rsk',
   BinanceSmartChain = 'bsc',
   Near = 'near',
-  Polygon = 'polygon'
+  Polygon = 'polygon',
+  Arbitrum = 'arbitrum'
 }
 
 export interface Asset {
@@ -33,4 +34,5 @@ export interface Asset {
   coinGeckoId?: string
   color?: string
   contractAddress?: string // ERC20 only
+  matchingAsset?: string
 }
