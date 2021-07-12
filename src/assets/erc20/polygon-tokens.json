@@ -5,7 +5,8 @@
     "decimals": 18,
     "contractAddress": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
     "color": "#5b3159",
-    "coinGeckoId": "weth"
+    "coinGeckoId": "weth",
+    "matchingAsset": "WETH"
   },
   "PUSDC": {
     "name": "Polygon USD Coin",
@@ -13,7 +14,8 @@
     "decimals": 6,
     "contractAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
     "color": "#5b31b9",
-    "coinGeckoId": "usd-coin"
+    "coinGeckoId": "usd-coin",
+    "matchingAsset": "USDC"
   },
   "PUSDT": {
     "name": "Polygon Tether USD",
@@ -21,6 +23,7 @@
     "decimals": 6,
     "contractAddress": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
     "color": "#5b31f9",
-    "coinGeckoId": "tether"
+    "coinGeckoId": "tether",
+    "matchingAsset": "USDT"
   }
 }
