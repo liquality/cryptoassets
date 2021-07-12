@@ -5,9 +5,11 @@ import { Chain, ChainId } from './types'
 import {
   isValidNearTx,
   isValidNearAddress,
+  isValidSolanaAddress,
   isValidBitcoinCashAddress,
   formatBitcoinCashAddress,
   isValidHex,
+  isValidSolanaTx,
   toLowerCaseWithout0x
 } from './common'
 
@@ -90,6 +92,19 @@ const chains: { [key in ChainId]: Chain } = {
     isValidAddress: (address) => isValidNearAddress(address),
     formatAddress: (address) => address,
     isValidTransactionHash: (hash: string) => isValidNearTx(hash),
+    formatTransactionHash: (hash: string) => hash
+  },
+  [ChainId.Solana]: {
+    name: 'Solana',
+    code: 'SOL',
+    nativeAsset: 'SOL',
+    fees: {
+      unit: 'SOL'
+    },
+    safeConfirmations: 0,
+    isValidAddress: (address) => isValidSolanaAddress(address),
+    formatAddress: (address) => address,
+    isValidTransactionHash: (hash: string) => isValidSolanaTx(hash),
     formatTransactionHash: (hash: string) => hash
   },
   [ChainId.Polygon]: {
