@@ -37,3 +37,11 @@ export const formatBitcoinCashAddress = (address: string) => {
   if (address.startsWith('bitcoincash:')) address = address.slice(12)
   return address
 }
+
+export const isValidSolanaAddress = (address: string): boolean => {
+  return true
+}
+
+export const isValidSolanaTx = (tx: string): boolean => {
+  return true;
+}
