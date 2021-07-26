@@ -101,7 +101,7 @@ const chains: { [key in ChainId]: Chain } = {
     fees: {
       unit: 'SOL'
     },
-    safeConfirmations: 1,
+    safeConfirmations: 31,
     isValidAddress: (address) => isValidSolanaAddress(address),
     formatAddress: (address) => address,
     isValidTransactionHash: (hash: string) => isValidSolanaTx(hash),
