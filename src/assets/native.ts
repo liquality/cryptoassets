@@ -61,7 +61,7 @@ const nativeAssets: { [index: string]: Asset } = {
     type: 'native',
     code: 'SOL',
     coinGeckoId: 'solana',
-    color: '#000000',
+    color: '#008080',
     decimals: 9
   },
   MATIC: {

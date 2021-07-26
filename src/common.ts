@@ -39,6 +39,15 @@ export const formatBitcoinCashAddress = (address: string) => {
 }
 
 export const isValidSolanaAddress = (address: string): boolean => {
+  
+  if (typeof address !== 'string') {
+    return false
+  }
+
+  if (address.length !== 44) {
+    return false
+  }
+
   return true
 }
 
