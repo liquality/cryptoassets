@@ -55,6 +55,15 @@ const nativeAssets: { [index: string]: Asset } = {
     color: '#000000',
     decimals: 24
   },
+  SOL: {
+    name: 'Solana',
+    chain: ChainId.Solana,
+    type: 'native',
+    code: 'SOL',
+    coinGeckoId: 'solana',
+    color: '#008080',
+    decimals: 9
+  },
   MATIC: {
     name: 'Matic',
     chain: ChainId.Polygon,

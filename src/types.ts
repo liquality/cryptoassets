@@ -22,7 +22,8 @@ export enum ChainId {
   BinanceSmartChain = 'bsc',
   Near = 'near',
   Polygon = 'polygon',
-  Arbitrum = 'arbitrum'
+  Arbitrum = 'arbitrum',
+  Solana = 'solana'
 }
 
 export interface Asset {
