@@ -54,3 +54,12 @@ export const isValidSolanaAddress = (address: string): boolean => {
 export const isValidSolanaTx = (tx: string): boolean => {
   return true;
 }
+
+export const isValidTerraAddress = (address: string): boolean => {
+  
+  return true
+}
+
+export const isValidTerraTx = (tx: string): boolean => {
+  return true;
+}

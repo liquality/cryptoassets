@@ -64,6 +64,15 @@ const nativeAssets: { [index: string]: Asset } = {
     color: '#008080',
     decimals: 9
   },
+  ULUNA: {
+    name: 'Terra',
+    chain: ChainId.Terra,
+    type: 'native',
+    code: 'ULUNA',
+    coinGeckoId: 'terra-luna',
+    color: '#008080',
+    decimals: 6
+  },
   MATIC: {
     name: 'Matic',
     chain: ChainId.Polygon,
