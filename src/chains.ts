@@ -99,7 +99,7 @@ const chains: { [key in ChainId]: Chain } = {
     code: 'SOL',
     nativeAsset: 'SOL',
     fees: {
-      unit: 'SOL'
+      unit: 'Lamports'
     },
     safeConfirmations: 31,
     isValidAddress: (address) => isValidSolanaAddress(address),
