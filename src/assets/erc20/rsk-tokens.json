@@ -18,7 +18,8 @@
     "code": "RIF",
     "decimals": 18,
     "contractAddress": "0x2acc95758f8b5f583470ba265eb685a8f45fc9d5",
-    "color": "#0083ff"
+    "color": "#0083ff",
+    "coinGeckoId": "rif-token"
   },
   "RDOC": {
     "name": "RIF Dollar On Chain",
@@ -39,6 +40,7 @@
     "code": "SOV",
     "decimals": 18,
     "contractAddress": "0xefc78fc7d48b64958315949279ba181c2114abbd",
-    "color": "#000000"
+    "color": "#000000",
+    "coinGeckoId": "sovryn"
   }
 }
