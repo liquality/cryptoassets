@@ -54,3 +54,14 @@ export const isValidSolanaAddress = (address: string): boolean => {
 export const isValidSolanaTx = (tx: string): boolean => {
   return true
 }
+
+export const isValidCosmosAddress = (address: string): boolean => {
+  
+
+  return true
+}
+
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+export const isValidCosmosTx = (tx: string): boolean => {
+  return true
+}

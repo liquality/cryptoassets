@@ -23,7 +23,8 @@ export enum ChainId {
   Near = 'near',
   Polygon = 'polygon',
   Arbitrum = 'arbitrum',
-  Solana = 'solana'
+  Solana = 'solana',
+  Cosmos = 'cosmos'
 }
 
 export interface Asset {

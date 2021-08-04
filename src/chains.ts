@@ -10,7 +10,9 @@ import {
   formatBitcoinCashAddress,
   isValidHex,
   isValidSolanaTx,
-  toLowerCaseWithout0x
+  toLowerCaseWithout0x,
+  isValidCosmosAddress,
+  isValidCosmosTx
 } from './common'
 
 const chains: { [key in ChainId]: Chain } = {
@@ -105,6 +107,19 @@ const chains: { [key in ChainId]: Chain } = {
     isValidAddress: (address) => isValidSolanaAddress(address),
     formatAddress: (address) => address,
     isValidTransactionHash: (hash: string) => isValidSolanaTx(hash),
+    formatTransactionHash: (hash: string) => hash
+  },
+  [ChainId.Cosmos]: {
+    name: 'Cosmos',
+    code: 'UPHOTON',
+    nativeAsset: 'UPHOTON',
+    fees: {
+      unit: 'Lamports'
+    },
+    safeConfirmations: 1,
+    isValidAddress: (address) => isValidCosmosAddress(address),
+    formatAddress: (address) => address,
+    isValidTransactionHash: (hash: string) => isValidCosmosTx(hash),
     formatTransactionHash: (hash: string) => hash
   },
   [ChainId.Polygon]: {

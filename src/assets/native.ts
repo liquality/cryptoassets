@@ -64,6 +64,15 @@ const nativeAssets: { [index: string]: Asset } = {
     color: '#008080',
     decimals: 9
   },
+  UPHOTON: {
+    name: 'Cosmos',
+    chain: ChainId.Cosmos,
+    type: 'native',
+    code: 'UPHOTON',
+    coinGeckoId: 'solana',
+    color: '#008080',
+    decimals: 6
+  },
   MATIC: {
     name: 'Matic',
     chain: ChainId.Polygon,
