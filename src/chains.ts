@@ -111,8 +111,8 @@ const chains: { [key in ChainId]: Chain } = {
   },
   [ChainId.Cosmos]: {
     name: 'Cosmos',
-    code: 'UPHOTON',
-    nativeAsset: 'UPHOTON',
+    code: 'PHOTON',
+    nativeAsset: 'PHOTON',
     fees: {
       unit: 'Lamports'
     },
