@@ -42,5 +42,12 @@
     "contractAddress": "0xefc78fc7d48b64958315949279ba181c2114abbd",
     "color": "#000000",
     "coinGeckoId": "sovryn"
+  },
+  "FISH": {
+    "name": "Fish",
+    "code": "FISH",
+    "decimals": 18,
+    "contractAddress": "0x055A902303746382FBB7D18f6aE0df56eFDc5213",
+    "color": "#4D9CDC"
   }
 }
