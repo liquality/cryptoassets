@@ -20,7 +20,7 @@
   "author": "Liquality <info@liquality.io>",
   "module": "src/index.js",
   "main": "dist/index.cjs.js",
-  "types": "dist/index.d.ts",
+  "types": "dist/src/index.d.ts",
   "files": [
     "dist/index.umd.js",
     "src/**/*"
