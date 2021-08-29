@@ -23,6 +23,7 @@
   "types": "dist/src/index.d.ts",
   "files": [
     "dist/index.umd.js",
+    "dist/src/**/*",
     "src/**/*"
   ],
   "scripts": {
