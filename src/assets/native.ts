@@ -88,10 +88,9 @@ const nativeAssets: { [index: string]: Asset } = {
     chain: ChainId.Fuse,
     type: 'native',
     code: 'FUSE',
-    coinGeckoId: 'ethereum',
+    coinGeckoId: 'fuse',
     color: '#46e8b6',
     decimals: 18,
-    matchingAsset: 'FUSE'
   }
 }
 
