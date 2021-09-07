@@ -132,11 +132,24 @@ const chains: { [key in ChainId]: Chain } = {
     formatAddress: toChecksumAddress,
     isValidTransactionHash: (hash: string) => isValidHex(hash),
     formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
+  },
+  [ChainId.Fuse]: {
+    name: 'Fuse',
+    code: 'FUSE',
+    nativeAsset: 'FUSE',
+    fees: {
+      unit: 'gwei'
+    },
+    safeConfirmations: 5,
+    isValidAddress: isValidAddress,
+    formatAddress: toChecksumAddress,
+    isValidTransactionHash: (hash: string) => isValidHex(hash),
+    formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
   }
 }
 
 function isEthereumChain(chain: ChainId) {
-  return [ChainId.BinanceSmartChain, ChainId.Ethereum, ChainId.Rootstock, ChainId.Polygon, ChainId.Arbitrum].includes(
+  return [ChainId.BinanceSmartChain, ChainId.Ethereum, ChainId.Rootstock, ChainId.Polygon, ChainId.Arbitrum, ChainId.Fuse].includes(
     chain
   )
 }
