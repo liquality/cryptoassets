@@ -1,6 +1,6 @@
 {
   "name": "@liquality/cryptoassets",
-  "version": "1.2.6",
+  "version": "1.2.15",
   "keywords": [
     "blockchain",
     "crypto",
@@ -20,8 +20,10 @@
   "author": "Liquality <info@liquality.io>",
   "module": "src/index.js",
   "main": "dist/index.cjs.js",
+  "types": "dist/src/index.d.ts",
   "files": [
     "dist/index.umd.js",
+    "dist/src/**/*",
     "src/**/*"
   ],
   "scripts": {

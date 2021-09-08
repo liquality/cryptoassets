@@ -91,6 +91,15 @@ const nativeAssets: { [index: string]: Asset } = {
     color: '#28A0EF',
     decimals: 18,
     matchingAsset: 'ETH'
+  },
+  FUSE: {
+    name: 'Fuse Network',
+    chain: ChainId.Fuse,
+    type: 'native',
+    code: 'FUSE',
+    coinGeckoId: 'fuse',
+    color: '#46e8b6',
+    decimals: 18,
   }
 }
 
