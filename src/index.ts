@@ -13,8 +13,6 @@ function currencyToUnit(asset: Asset, value: number | BigNumber): BigNumber {
   return new BigNumber(value).times(multiplier)
 }
 
-console.log(chainToTestnetTokenAddressMap)
-
 export {
   assets,
   chainToTokenAddressMap,
