@@ -1,5 +1,5 @@
 import BigNumber from 'bignumber.js'
-import assets from './assets'
+import { assets, testnetAssets, chainToTokenAddressMap, chainToTestnetTokenAddressMap } from './assets'
 import { chains, isEthereumChain } from './chains'
 import { Asset, ChainId } from './types'
 
@@ -13,4 +13,16 @@ function currencyToUnit(asset: Asset, value: number | BigNumber): BigNumber {
   return new BigNumber(value).times(multiplier)
 }
 
-export { assets, chains, isEthereumChain, unitToCurrency, currencyToUnit, ChainId }
+console.log(chainToTestnetTokenAddressMap)
+
+export {
+  assets,
+  chainToTokenAddressMap,
+  testnetAssets,
+  chainToTestnetTokenAddressMap,
+  chains,
+  isEthereumChain,
+  unitToCurrency,
+  currencyToUnit,
+  ChainId
+}

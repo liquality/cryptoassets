@@ -1,6 +1,7 @@
-import { Asset, ChainId } from '../types'
+import { TESTNET_NATIVE } from './testnet'
+import { AssetMap, ChainId } from '../types'
 
-const nativeAssets: { [index: string]: Asset } = {
+const nativeAssets: AssetMap = {
   BTC: {
     name: 'Bitcoin',
     chain: ChainId.Bitcoin,
@@ -90,8 +91,16 @@ const nativeAssets: { [index: string]: Asset } = {
     code: 'FUSE',
     coinGeckoId: 'fuse',
     color: '#46e8b6',
-    decimals: 18,
+    decimals: 18
   }
 }
 
-export default nativeAssets
+const testnetNativeAssets = TESTNET_NATIVE.reduce((assets: AssetMap, asset: string) => {
+  return Object.assign(assets, {
+    [asset]: {
+      ...nativeAssets[asset]
+    }
+  })
+}, {})
+
+export { nativeAssets, testnetNativeAssets }

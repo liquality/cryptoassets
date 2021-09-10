@@ -1,9 +1,14 @@
-import nativeAssets from './native'
-import erc20Assets from './erc20'
+import { nativeAssets, testnetNativeAssets } from './native'
+import { erc20Assets, testnetErc20Assets, chainToTokenAddressMap, chainToTestnetTokenAddressMap } from './erc20'
 
 const assets = {
   ...nativeAssets,
   ...erc20Assets
 }
 
-export default assets
+const testnetAssets = {
+  ...testnetNativeAssets,
+  ...testnetErc20Assets
+}
+
+export { assets, testnetAssets, chainToTokenAddressMap, chainToTestnetTokenAddressMap }
