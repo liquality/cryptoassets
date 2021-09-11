@@ -1,13 +1,17 @@
 const fs = require('fs')
 const axios = require('axios')
 
-const sleep = async (millis) => new Promise(resolve => setTimeout(resolve, millis))
+const sleep = async millis => new Promise(resolve => setTimeout(resolve, millis))
 const dataPath = './src/assets/erc20/ethereum-tokens.json'
 
 ;(async () => {
-  const manifestResult = await axios.get('https://raw.githubusercontent.com/spothq/cryptocurrency-icons/master/manifest.json')
+  const manifestResult = await axios.get(
+    'https://raw.githubusercontent.com/spothq/cryptocurrency-icons/master/manifest.json'
+  )
   const manifest = manifestResult.data
-  const metadataResult = await axios.get('https://raw.githubusercontent.com/MetaMask/eth-contract-metadata/master/contract-map.json')
+  const metadataResult = await axios.get(
+    'https://raw.githubusercontent.com/MetaMask/eth-contract-metadata/master/contract-map.json'
+  )
   const metadataMap = metadataResult.data
 
   const tokens = {}
@@ -27,7 +31,9 @@ const dataPath = './src/assets/erc20/ethereum-tokens.json'
       data.color = assetManifest.color
     }
     try {
-      const coinGeckoResult = await axios.get(`https://api.coingecko.com/api/v3/coins/ethereum/contract/${contractAddress}`)
+      const coinGeckoResult = await axios.get(
+        `https://api.coingecko.com/api/v3/coins/ethereum/contract/${contractAddress}`
+      )
       if (!coinGeckoResult.data.id) throw new Error('missing')
       data.coinGeckoId = coinGeckoResult.data.id
     } catch (e) {

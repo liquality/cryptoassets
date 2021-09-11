@@ -38,3 +38,5 @@ export interface Asset {
   contractAddress?: string // ERC20 only
   matchingAsset?: string
 }
+
+export type AssetMap = Record<string, Asset>

@@ -149,9 +149,14 @@ const chains: { [key in ChainId]: Chain } = {
 }
 
 function isEthereumChain(chain: ChainId) {
-  return [ChainId.BinanceSmartChain, ChainId.Ethereum, ChainId.Rootstock, ChainId.Polygon, ChainId.Arbitrum, ChainId.Fuse].includes(
-    chain
-  )
+  return [
+    ChainId.BinanceSmartChain,
+    ChainId.Ethereum,
+    ChainId.Rootstock,
+    ChainId.Polygon,
+    ChainId.Arbitrum,
+    ChainId.Fuse
+  ].includes(chain)
 }
 
 export { chains, isEthereumChain }
