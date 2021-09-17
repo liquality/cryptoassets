@@ -1,0 +1,10 @@
+{
+  "UST": {
+    "name": "TerraUSD",
+    "code": "UST",
+    "decimals": 6,
+    "contractAddress": "0x2acc95758f8b5f583470ba265eb685a8f45fc9d5",
+    "color": "#0083ff",
+    "coinGeckoId": "terrausd"
+  }
+}

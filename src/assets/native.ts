@@ -92,7 +92,16 @@ const nativeAssets: AssetMap = {
     coinGeckoId: 'fuse',
     color: '#46e8b6',
     decimals: 18
-  }
+  },
+  ULUNA: {
+    name: 'Terra',
+    chain: ChainId.Terra,
+    type: 'native',
+    code: 'ULUNA',
+    coinGeckoId: 'terra-luna',
+    color: '#008080',
+    decimals: 6
+  },
 }
 
 const testnetNativeAssets = TESTNET_NATIVE.reduce((assets: AssetMap, asset: string) => {
