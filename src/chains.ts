@@ -111,10 +111,10 @@ const chains: { [key in ChainId]: Chain } = {
   },
   [ChainId.Terra]: {
     name: 'Terra',
-    code: 'ULUNA',
-    nativeAsset: 'ULUNA',
+    code: 'LUNA',
+    nativeAsset: 'LUNA',
     fees: {
-      unit: 'ULUNA'
+      unit: 'LUNA'
     },
     safeConfirmations: 1,
     isValidAddress: (address) => isValidTerraAddress(address),
