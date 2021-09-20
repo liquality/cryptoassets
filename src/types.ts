@@ -24,7 +24,8 @@ export enum ChainId {
   Polygon = 'polygon',
   Arbitrum = 'arbitrum',
   Solana = 'solana',
-  Fuse = 'fuse'
+  Fuse = 'fuse',
+  Terra = 'terra'
 }
 
 export interface Asset {

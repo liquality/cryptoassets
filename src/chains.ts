@@ -10,7 +10,9 @@ import {
   formatBitcoinCashAddress,
   isValidHex,
   isValidSolanaTx,
-  toLowerCaseWithout0x
+  toLowerCaseWithout0x,
+  isValidTerraAddress,
+  isValidTerraTx
 } from './common'
 
 const chains: { [key in ChainId]: Chain } = {
@@ -105,6 +107,19 @@ const chains: { [key in ChainId]: Chain } = {
     isValidAddress: (address) => isValidSolanaAddress(address),
     formatAddress: (address) => address,
     isValidTransactionHash: (hash: string) => isValidSolanaTx(hash),
+    formatTransactionHash: (hash: string) => hash
+  },
+  [ChainId.Terra]: {
+    name: 'Terra',
+    code: 'LUNA',
+    nativeAsset: 'LUNA',
+    fees: {
+      unit: 'LUNA'
+    },
+    safeConfirmations: 1,
+    isValidAddress: (address) => isValidTerraAddress(address),
+    formatAddress: (address) => address,
+    isValidTransactionHash: (hash: string) => isValidTerraTx(hash),
     formatTransactionHash: (hash: string) => hash
   },
   [ChainId.Polygon]: {

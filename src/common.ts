@@ -54,3 +54,14 @@ export const isValidSolanaAddress = (address: string): boolean => {
 export const isValidSolanaTx = (tx: string): boolean => {
   return true
 }
+
+export const isValidTerraAddress = (address: string): boolean => {
+  const terraAddressesLength = 44
+  
+  return address.length === terraAddressesLength
+}
+
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+export const isValidTerraTx = (tx: string): boolean => {
+  return typeof tx === 'string' && tx.length === 64
+}
