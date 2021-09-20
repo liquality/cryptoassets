@@ -111,7 +111,7 @@ const chains: { [key in ChainId]: Chain } = {
   },
   [ChainId.Terra]: {
     name: 'Terra',
-    code: 'LUNA',
+    code: 'Terra',
     nativeAsset: 'LUNA',
     fees: {
       unit: 'LUNA'
