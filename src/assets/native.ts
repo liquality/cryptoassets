@@ -93,11 +93,11 @@ const nativeAssets: AssetMap = {
     color: '#46e8b6',
     decimals: 18
   },
-  ULUNA: {
-    name: 'Terra',
+  LUNA: {
+    name: 'Luna',
     chain: ChainId.Terra,
     type: 'native',
-    code: 'ULUNA',
+    code: 'LUNA',
     coinGeckoId: 'terra-luna',
     color: '#008080',
     decimals: 6
