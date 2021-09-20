@@ -63,5 +63,5 @@ export const isValidTerraAddress = (address: string): boolean => {
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 export const isValidTerraTx = (tx: string): boolean => {
-  return true
+  return typeof tx === 'string' && tx.length === 64
 }
