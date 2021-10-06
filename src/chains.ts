@@ -12,7 +12,9 @@ import {
   isValidSolanaTx,
   toLowerCaseWithout0x,
   isValidTerraAddress,
-  isValidTerraTx
+  isValidTerraTx,
+  isValidFlowAddress,
+  isValidFlowTx
 } from './common'
 
 const chains: { [key in ChainId]: Chain } = {
@@ -120,6 +122,19 @@ const chains: { [key in ChainId]: Chain } = {
     isValidAddress: (address) => isValidTerraAddress(address),
     formatAddress: (address) => address,
     isValidTransactionHash: (hash: string) => isValidTerraTx(hash),
+    formatTransactionHash: (hash: string) => hash
+  },
+  [ChainId.Flow]: {
+    name: 'Flow',
+    code: 'FLOW',
+    nativeAsset: 'FLOW',
+    fees: {
+      unit: 'FLOW'
+    },
+    safeConfirmations: 1,
+    isValidAddress: (address) => isValidFlowAddress(address),
+    formatAddress: (address) => address,
+    isValidTransactionHash: (hash: string) => isValidFlowTx(hash),
     formatTransactionHash: (hash: string) => hash
   },
   [ChainId.Polygon]: {

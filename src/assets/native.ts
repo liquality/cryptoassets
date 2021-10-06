@@ -102,6 +102,15 @@ const nativeAssets: AssetMap = {
     color: '#008080',
     decimals: 6
   },
+  Flow: {
+    name: 'Flow',
+    chain: ChainId.Terra,
+    type: 'native',
+    code: 'FLOW',
+    coinGeckoId: 'flow',
+    color: '#008080',
+    decimals: 8
+  },
 }
 
 const testnetNativeAssets = TESTNET_NATIVE.reduce((assets: AssetMap, asset: string) => {

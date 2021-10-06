@@ -65,3 +65,7 @@ export const isValidTerraAddress = (address: string): boolean => {
 export const isValidTerraTx = (tx: string): boolean => {
   return typeof tx === 'string' && tx.length === 64
 }
+
+export const isValidFlowAddress = (address: string): boolean => true
+
+export const isValidFlowTx = (tx: string): boolean => true
