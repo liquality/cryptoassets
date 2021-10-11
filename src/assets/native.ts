@@ -102,6 +102,16 @@ const nativeAssets: AssetMap = {
     color: '#008080',
     decimals: 6
   },
+  UST: {
+    name: 'TerraUSD',
+    chain: ChainId.Terra,
+    type: 'native',
+    code: 'UST',
+    decimals: 6,
+    color: '#0083ff',
+    coinGeckoId: 'terrausd',
+    feeAsset: 'UST'
+  }
 }
 
 const testnetNativeAssets = TESTNET_NATIVE.reduce((assets: AssetMap, asset: string) => {
