@@ -4,6 +4,7 @@
     "code": "UST",
     "decimals": 6,
     "color": "#0083ff",
-    "coinGeckoId": "terrausd"
+    "coinGeckoId": "terrausd",
+    "feeAsset": "UST"
   }
 }
