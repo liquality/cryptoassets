@@ -22,7 +22,6 @@ const polygonTokensData = mapValues(polygonTokens, (tokenData) => ({
   chain: ChainId.Polygon
 }))
 
-
 const erc20Assets: AssetMap = mapValues(
   { ...rskTokensData, ...ethereumTokensData, ...polygonTokensData },
   (tokenData) => ({
