@@ -39,15 +39,7 @@ export const formatBitcoinCashAddress = (address: string) => {
 }
 
 export const isValidSolanaAddress = (address: string): boolean => {
-  if (typeof address !== 'string') {
-    return false
-  }
-
-  if (address.length !== 44) {
-    return false
-  }
-
-  return true
+  return typeof address === 'string' && address.length >= 32 && address.length <= 44
 }
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -57,7 +49,7 @@ export const isValidSolanaTx = (tx: string): boolean => {
 
 export const isValidTerraAddress = (address: string): boolean => {
   const terraAddressesLength = 44
-  
+
   return address.length === terraAddressesLength
 }
 
