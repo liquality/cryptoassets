@@ -47,7 +47,7 @@
     "name": "Fish",
     "code": "FISH",
     "decimals": 18,
-    "contractAddress": "0x055A902303746382FBB7D18f6aE0df56eFDc5213",
+    "contractAddress": "0x055a902303746382fbb7d18f6ae0df56efdc5213",
     "color": "#4D9CDC"
   }
 }
