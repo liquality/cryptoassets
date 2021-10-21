@@ -460,7 +460,8 @@
     "code": "IOTX",
     "decimals": 18,
     "contractAddress": "0x6fB3e0A217407EFFf7Ca062D46c26E5d60a14d69",
-    "color": "#00d4d5"
+    "color": "#00d4d5",
+    "coinGeckoId": "iotex"
   },
   "RAE": {
     "name": "RAE Token",
@@ -2144,5 +2145,69 @@
     "decimals": 0,
     "contractAddress": "0xdacD69347dE42baBfAEcD09dC88958378780FB62",
     "coinGeckoId": "atari"
+  },
+  "GRT": {
+    "name": "The Graph",
+    "code": "GRT",
+    "decimals": 18,
+    "contractAddress": "0xc944e90c64b2c07662a292be6244bdf05cda44a7",
+    "color": "#1a41a9",
+    "coinGeckoId": "the-graph"
+  },
+  "SUSHI": {
+    "name": "Sushi",
+    "code": "SUSHI",
+    "decimals": 18,
+    "contractAddress": "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
+    "color": "#1a41b9",
+    "coinGeckoId": "sushi"
+  },
+  "1INCH": {
+    "name": "1INCH",
+    "code": "1INCH",
+    "decimals": 18,
+    "contractAddress": "0x111111111117dc0aa78b770fa6a738034120c302",
+    "color": "#1a41c9",
+    "coinGeckoId": "1inch"
+  },
+  "USDK": {
+    "name": "USDK",
+    "code": "USDK",
+    "decimals": 18,
+    "contractAddress": "0x1c48f86ae57291f7686349f12601910bd8d470bb",
+    "color": "#1a41d9",
+    "coinGeckoId": "usdk"
+  },
+  "CRV": {
+    "name": "CRV",
+    "code": "CRV",
+    "decimals": 18,
+    "contractAddress": "0xd533a949740bb3306d119cc777fa900ba034cd52",
+    "color": "#1a41e9",
+    "coinGeckoId": "curve-dao-token"
+  },
+  "ELON": {
+    "name": "Dogelon MARS",
+    "code": "ELON",
+    "decimals": 18,
+    "contractAddress": "0x761d38e5ddf6ccf6cf7c55759d5210750b5d60f3",
+    "color": "#1a41ee",
+    "coinGeckoId": "dogelon-mars"
+  },
+  "OCEAN": {
+    "name": "OCEAN Protocol",
+    "code": "OCEAN",
+    "decimals": 18,
+    "contractAddress": "0x967da4048cd07ab37855c090aaf366e4ce1b9f48",
+    "color": "#1a413e",
+    "coinGeckoId": "ocean-protocol"
+  },
+  "WOO": {
+    "name": "Wootrade Network",
+    "code": "WOO",
+    "decimals": 18,
+    "contractAddress": "0x4691937a7508860f876c9c0a2a617e7d9e945d4b",
+    "color": "#1aa13e",
+    "coinGeckoId": "woo-network"
   }
 }
