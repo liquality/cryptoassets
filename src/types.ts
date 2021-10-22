@@ -6,8 +6,8 @@ export interface Chain {
     unit: string
   }
   safeConfirmations: number
-  isValidAddress: (address: string) => boolean
-  formatAddress: (address: string) => string
+  isValidAddress: (address: string, network?: string) => boolean
+  formatAddress: (address: string, network?: string) => string
   isValidTransactionHash: (hash: string) => boolean
   formatTransactionHash: (hash: string) => string
 }

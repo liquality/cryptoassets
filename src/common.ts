@@ -5,6 +5,9 @@ const BASE58_LENGTH = 32
 
 export const isValidHex = (hash: string) => /^([A-Fa-f0-9]{64})$/.test(hash)
 export const toLowerCaseWithout0x = (hash: string) => hash.toLowerCase().replace(/0x/g, '')
+export const toLowerCaseWith0x = (hash: string) =>
+  hash.startsWith('0x') ? hash.toLowerCase() : '0x' + hash.toLowerCase()
+
 export const isValidNearAddress = (address: string) => address.endsWith('.near') || /^[0-9a-fA-F]{64}$/.test(address)
 
 export const isValidNearTx = (hash: string) => {
@@ -56,4 +59,9 @@ export const isValidTerraAddress = (address: string): boolean => {
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 export const isValidTerraTx = (tx: string): boolean => {
   return typeof tx === 'string' && tx.length === 64
+}
+
+export const getRSKChainID = (network: string) => {
+  if (network == 'mainnet') return 30
+  if (network == 'testnet') return 31
 }

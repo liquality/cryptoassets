@@ -1,4 +1,4 @@
-import { isValidAddress, toChecksumAddress } from 'ethereumjs-util'
+import { isValidAddress, isValidChecksumAddress, toChecksumAddress } from 'ethereumjs-util'
 import validateBitcoinAddress from 'bitcoin-address-validation'
 
 import { Chain, ChainId } from './types'
@@ -11,8 +11,10 @@ import {
   isValidHex,
   isValidSolanaTx,
   toLowerCaseWithout0x,
+  toLowerCaseWith0x,
   isValidTerraAddress,
-  isValidTerraTx
+  isValidTerraTx,
+  getRSKChainID
 } from './common'
 
 const chains: { [key in ChainId]: Chain } = {
@@ -52,8 +54,8 @@ const chains: { [key in ChainId]: Chain } = {
       unit: 'gwei'
     },
     safeConfirmations: 3,
-    isValidAddress: isValidAddress,
-    formatAddress: toChecksumAddress,
+    isValidAddress: (hexAddress: string) => isValidAddress(toLowerCaseWith0x(hexAddress)),
+    formatAddress: (hexAddress: string) => toChecksumAddress(toLowerCaseWith0x(hexAddress)),
     isValidTransactionHash: (hash: string) => isValidHex(hash),
     formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
   },
@@ -65,8 +67,10 @@ const chains: { [key in ChainId]: Chain } = {
       unit: 'gwei'
     },
     safeConfirmations: 5,
-    isValidAddress: isValidAddress,
-    formatAddress: toChecksumAddress,
+    isValidAddress: (hexAddress: string, network?: string) =>
+      isValidChecksumAddress(toLowerCaseWith0x(hexAddress), getRSKChainID(network)),
+    formatAddress: (hexAddress: string, network?: string) =>
+      toChecksumAddress(toLowerCaseWith0x(hexAddress), getRSKChainID(network)),
     isValidTransactionHash: (hash: string) => isValidHex(hash),
     formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
   },
@@ -78,8 +82,8 @@ const chains: { [key in ChainId]: Chain } = {
       unit: 'gwei'
     },
     safeConfirmations: 5,
-    isValidAddress: isValidAddress,
-    formatAddress: toChecksumAddress,
+    isValidAddress: (hexAddress: string) => isValidAddress(toLowerCaseWith0x(hexAddress)),
+    formatAddress: (hexAddress: string) => toChecksumAddress(toLowerCaseWith0x(hexAddress)),
     isValidTransactionHash: (hash: string) => isValidHex(hash),
     formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
   },
@@ -130,8 +134,8 @@ const chains: { [key in ChainId]: Chain } = {
       unit: 'gwei'
     },
     safeConfirmations: 5,
-    isValidAddress: isValidAddress,
-    formatAddress: toChecksumAddress,
+    isValidAddress: (hexAddress: string) => isValidAddress(toLowerCaseWith0x(hexAddress)),
+    formatAddress: (hexAddress: string) => toChecksumAddress(toLowerCaseWith0x(hexAddress)),
     isValidTransactionHash: (hash: string) => isValidHex(hash),
     formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
   },
@@ -143,8 +147,8 @@ const chains: { [key in ChainId]: Chain } = {
       unit: 'gwei'
     },
     safeConfirmations: 5,
-    isValidAddress: isValidAddress,
-    formatAddress: toChecksumAddress,
+    isValidAddress: (hexAddress: string) => isValidAddress(toLowerCaseWith0x(hexAddress)),
+    formatAddress: (hexAddress: string) => toChecksumAddress(toLowerCaseWith0x(hexAddress)),
     isValidTransactionHash: (hash: string) => isValidHex(hash),
     formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
   },
@@ -156,8 +160,8 @@ const chains: { [key in ChainId]: Chain } = {
       unit: 'gwei'
     },
     safeConfirmations: 5,
-    isValidAddress: isValidAddress,
-    formatAddress: toChecksumAddress,
+    isValidAddress: (hexAddress: string) => isValidAddress(toLowerCaseWith0x(hexAddress)),
+    formatAddress: (hexAddress: string) => toChecksumAddress(toLowerCaseWith0x(hexAddress)),
     isValidTransactionHash: (hash: string) => isValidHex(hash),
     formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
   }
