@@ -61,7 +61,7 @@ export const isValidTerraTx = (tx: string): boolean => {
   return typeof tx === 'string' && tx.length === 64
 }
 
-export const getRSKChainID = (chain: string, network: string) => {
-  if (chain == 'rsk' && network == 'mainnet') return 30
-  if (chain == 'rsk' && network == 'testnet') return 31
+export const getRSKChainID = (network: string) => {
+  if (network == 'mainnet') return 30
+  if (network == 'testnet') return 31
 }

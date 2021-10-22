@@ -67,10 +67,10 @@ const chains: { [key in ChainId]: Chain } = {
       unit: 'gwei'
     },
     safeConfirmations: 5,
-    isValidAddress: (hexAddress: string, chain?: string, network?: string) =>
-      isValidChecksumAddress(toLowerCaseWith0x(hexAddress), getRSKChainID(chain, network)),
-    formatAddress: (hexAddress: string, chain?: string, network?: string) =>
-      toChecksumAddress(toLowerCaseWith0x(hexAddress), getRSKChainID(chain, network)),
+    isValidAddress: (hexAddress: string, network?: string) =>
+      isValidChecksumAddress(toLowerCaseWith0x(hexAddress), getRSKChainID(network)),
+    formatAddress: (hexAddress: string, network?: string) =>
+      toChecksumAddress(toLowerCaseWith0x(hexAddress), getRSKChainID(network)),
     isValidTransactionHash: (hash: string) => isValidHex(hash),
     formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
   },
