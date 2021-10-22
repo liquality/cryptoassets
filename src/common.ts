@@ -5,8 +5,7 @@ const BASE58_LENGTH = 32
 
 export const isValidHex = (hash: string) => /^([A-Fa-f0-9]{64})$/.test(hash)
 export const toLowerCaseWithout0x = (hash: string) => hash.toLowerCase().replace(/0x/g, '')
-export const toLowerCaseWith0x = (hash: string) =>
-  hash.startsWith('0x') ? hash.toLowerCase() : '0x' + hash.toLowerCase()
+export const with0x = (hash: string) => (hash.startsWith('0x') ? hash : '0x' + hash)
 
 export const isValidNearAddress = (address: string) => address.endsWith('.near') || /^[0-9a-fA-F]{64}$/.test(address)
 
