@@ -149,7 +149,7 @@
     "contractAddress": "0x9c2c5fd7b07e95ee044ddeba0e97a665f142394f",
     "color": "#6b23a9",
     "coinGeckoId": "1INCH",
-    "matchingAsset": "SUSHI"
+    "matchingAsset": "1INCH"
   },
   "PUSDK": {
     "name": "Polygon USDK",
@@ -291,7 +291,7 @@
     "contractAddress": "0x282d8efce846a88b159800bd4130ad77443fa1a1",
     "color": "#1a413e",
     "coinGeckoId": "ocean-protocol",
-    "matchingAsset": "POCEAN"
+    "matchingAsset": "OCEAN"
   },
   "PWOO": {
     "name": "Polygon Wootrade Network",
