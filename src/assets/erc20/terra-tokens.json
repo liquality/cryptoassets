@@ -1,0 +1,230 @@
+{
+  "bLUNA": {
+    "name": "bLuna",
+    "code": "bLuna",
+    "decimals": 6
+  },
+  "bETH": {
+    "name": "bETH",
+    "code": "bETH",
+    "decimals": 6
+  },
+  "ANC": {
+    "name": "ANC",
+    "code": "ANC",
+    "decimals": 6,
+    "coinGeckoId": "anchor-protocol"
+  },
+  "MIR": {
+    "name": "Mirror",
+    "code": "MIR",
+    "decimals": 6,
+    "coinGeckoId": "mirror-protocol"
+  },
+  "mAAPL": {
+    "name": "Apple Inc.",
+    "code": "mAAPL",
+    "decimals": 6,
+    "coinGeckoId": "mirrored-apple"
+  },
+  "mABNB": {
+    "name": "Airbnb Inc.",
+    "code": "mABNB",
+    "decimals": 6,
+    "coinGeckoId": "mirrored-airbnb"
+  },
+  "mAMC": {
+    "name": "AMC Entertainment Holdings Inc.",
+    "code": "mAMC",
+    "decimals": 6,
+    "coinGeckoId": "mirrored-amc-entertainment"
+  },
+  "mAMD": {
+    "name": "Advanced Micro Devices, Inc.",
+    "code": "mAMD",
+    "decimals": 6
+  },
+  "mAMZN": {
+    "name": "Amazon.com, Inc.",
+    "code": "mAMZN",
+    "decimals": 6,
+    "coinGeckoId": "mirrored-amzn"
+  },
+  "mARKK": {
+    "name": "ARK Innovation ETF",
+    "code": "mARKK",
+    "decimals": 6
+  },
+  "mBABA": {
+    "name": "Alibaba Group Holding Limited",
+    "code": "mBABA",
+    "decimals": 6
+  },
+  "mBTC": {
+    "name": "Bitcoin",
+    "code": "mBTC",
+    "decimals": 6
+  },
+  "mCOIN": {
+    "name": "Coinbase Global, Inc",
+    "code": "mCOIN",
+    "decimals": 6
+  },
+  "mDOT": {
+    "name": "Polkadot",
+    "code": "mDOT",
+    "decimals": 6
+  },
+  "mETH": {
+    "name": "Ether",
+    "code": "mETH",
+    "decimals": 6
+  },
+  "mFB": {
+    "name": "Facebook Inc.",
+    "code": "mFB",
+    "decimals": 6
+  },
+  "mGLXY": {
+    "name": "Galaxy Digital Holdings Ltd",
+    "code": "mGLXY",
+    "decimals": 6
+  },
+  "mGME": {
+    "name": "GameStop Corp",
+    "code": "mGME",
+    "decimals": 6
+  },
+  "mGOOGL": {
+    "name": "Alphabet Inc.",
+    "code": "mGOOGL",
+    "decimals": 6,
+    "coinGeckoId": "mirrored-googl"
+  },
+  "mGS": {
+    "name": "Goldman Sachs Group Inc.",
+    "code": "mGS",
+    "decimals": 6
+  },
+  "mIAU": {
+    "name": "iShares Gold Trust",
+    "code": "mIAU",
+    "decimals": 6
+  },
+  "mMSFT": {
+    "name": "Microsoft Corporation",
+    "code": "mMSFT",
+    "decimals": 6
+  },
+  "mNFLX": {
+    "name": "Netflix, Inc.",
+    "code": "mNFLX",
+    "decimals": 6
+  },
+  "mQQQ": {
+    "name": "Invesco QQQ Trust",
+    "code": "mQQQ",
+    "decimals": 6
+  },
+  "mSLV": {
+    "name": "iShares Silver Trust",
+    "code": "mSLV",
+    "decimals": 6
+  },
+  "mSPY": {
+    "name": "SPDR S&P 500",
+    "code": "mSPY",
+    "decimals": 6
+  },
+  "mSQ": {
+    "name": "Square, Inc.",
+    "code": "mSQ",
+    "decimals": 6
+  },
+  "mTSLA": {
+    "name": "Tesla, Inc.",
+    "code": "mTSLA",
+    "decimals": 6
+  },
+  "mTWTR": {
+    "name": "Twitter, Inc.",
+    "code": "mTWTR",
+    "decimals": 6
+  },
+  "mUSO": {
+    "name": "United States Oil Fund, LP",
+    "code": "mUSO",
+    "decimals": 6
+  },
+  "mVIXY": {
+    "name": "ProShares VIX Short-Term Futures ETF",
+    "code": "mVIXY",
+    "decimals": 6
+  },
+  "LOTA": {
+    "name": "LOTA",
+    "code": "LOTA",
+    "decimals": 6,
+    "coinGeckoId": "loterra"
+  },
+  "DPH": {
+    "name": "Digipharm",
+    "code": "DPH",
+    "decimals": 6,
+    "coinGeckoId": "digipharm"
+  },
+  "MINE": {
+    "name": "Pylon MINE Token",
+    "code": "pylon-protocol",
+    "decimals": 6,
+    "coinGeckoId": "mirrored-amd"
+  },
+  "SPEC": {
+    "name": "Spectrum",
+    "code": "SPEC",
+    "decimals": 6,
+    "coinGeckoId": "mirrored-amd"
+  },
+  "LOOP": {
+    "name": "LOOP",
+    "code": "LOOP",
+    "decimals": 6,
+    "coinGeckoId": "mirrored-amd"
+  },
+  "LOOPR": {
+    "name": "LOOPR",
+    "code": "LOOPR",
+    "decimals": 6,
+    "coinGeckoId": "mirrored-amd"
+  },
+  "STT": {
+    "name": "StarTerra",
+    "code": "STT",
+    "decimals": 6,
+    "coinGeckoId": "mirrored-amd"
+  },
+  "TWD": {
+    "name": "TerraWorld",
+    "code": "TWD",
+    "decimals": 6,
+    "coinGeckoId": "mirrored-amd"
+  },
+  "MIAW": {
+    "name": "MIAW",
+    "code": "MIAW",
+    "decimals": 6,
+    "coinGeckoId": "mirrored-amd"
+  },
+  "Psi": {
+    "name": "Nexus Governance",
+    "code": "Psi",
+    "decimals": 6,
+    "coinGeckoId": "mirrored-amd"
+  },
+  "VKR": {
+    "name": "VKR",
+    "code": "VKR",
+    "decimals": 6,
+    "coinGeckoId": "mirrored-amd"
+  }
+}
