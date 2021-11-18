@@ -6,6 +6,7 @@ export interface Chain {
     unit: string
   }
   safeConfirmations: number
+  txFailureTimeout: number
   isValidAddress: (address: string, network?: string) => boolean
   formatAddress: (address: string, network?: string) => string
   isValidTransactionHash: (hash: string) => boolean
