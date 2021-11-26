@@ -1,6 +1,6 @@
 {
   "name": "@liquality/cryptoassets",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "keywords": [
     "blockchain",
     "crypto",
@@ -31,7 +31,8 @@
     "lint": "eslint . $npm_package_options_eslint",
     "test": "cross-env NODE_ENV=test TS_NODE_FILES=true mocha -r ts-node/register --recursive ./tests/**/*.test.ts",
     "build": "cross-env NODE_ENV=production webpack --config webpack.config.js",
-    "updateErc20": "node scripts/updateERC20.js"
+    "updateErc20": "node scripts/updateERC20.js",
+    "prepublishOnly": "npm run build"
   },
   "options": {
     "eslint": "--ext .jsx,.ts,.tsx"
