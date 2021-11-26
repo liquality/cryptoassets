@@ -4,3 +4,5 @@ coverage
 examples
 doc
 .eslintrc.js
+scripts/updateERC20.js
+webpack.config.js
