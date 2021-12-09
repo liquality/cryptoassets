@@ -1,4 +1,4 @@
-import { isValidAddress, isValidChecksumAddress, toChecksumAddress } from 'ethereumjs-util'
+import { isValidAddress, toChecksumAddress } from 'ethereumjs-util'
 import validateBitcoinAddress from 'bitcoin-address-validation'
 
 import { Chain, ChainId } from './types'
@@ -75,8 +75,7 @@ const chains: { [key in ChainId]: Chain } = {
     safeConfirmations: 5,
     // ~3 blocks per minute * 30 minutes -> 90 blocks wait period
     txFailureTimeout: 1800000, // in ms
-    isValidAddress: (hexAddress: string, network?: string) =>
-      isValidChecksumAddress(with0x(hexAddress), getRSKChainID(network)),
+    isValidAddress: (hexAddress: string) => isValidAddress(with0x(hexAddress)),
     formatAddress: (hexAddress: string, network?: string) =>
       toChecksumAddress(with0x(hexAddress), getRSKChainID(network)),
     isValidTransactionHash: (hash: string) => isValidHex(hash),
