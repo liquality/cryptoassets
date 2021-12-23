@@ -89,7 +89,7 @@ const nativeAssets: AssetMap = {
     chain: ChainId.Fuse,
     type: 'native',
     code: 'FUSE',
-    coinGeckoId: 'fuse',
+    coinGeckoId: 'fuse-network-token',
     color: '#46e8b6',
     decimals: 18
   },
