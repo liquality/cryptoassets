@@ -111,6 +111,15 @@ const nativeAssets: AssetMap = {
     color: '#0083ff',
     coinGeckoId: 'terrausd',
     feeAsset: 'UST'
+  },
+  AVAX: {
+    name: 'Avalanche',
+    chain: ChainId.Avalanche,
+    type: 'native',
+    code: 'AVAX',
+    coinGeckoId: 'avalanche-2',
+    color: '#E84141',
+    decimals: 18
   }
 }
 
