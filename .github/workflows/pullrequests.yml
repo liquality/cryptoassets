@@ -29,6 +29,7 @@ jobs:
 
       - name: Run tests
         run: |
+          sudo npm install --global cross-env
           npm ci
           npm test
 
