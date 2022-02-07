@@ -1,8 +1,9 @@
 import { expect } from 'chai'
-import { chains } from '../../src'
+import { chains, chainToTokenAddressMap } from '../../src'
 
 describe('Terra chain tests', function () {
   const terra = chains.terra
+  const erc20Assets = chainToTokenAddressMap.terra
 
   it('Has correct name', () => {
     expect(terra.name).to.be.equal('Terra', 'Invalid chain name')
@@ -68,5 +69,18 @@ describe('Terra chain tests', function () {
   it('Provides correct Transaction Hash formatting', () => {
     const txHash = '3B2555E2FFCF27E9D7E47E09762C948FAD37111BC75F5BCAE6ED14B48FDC14F4'
     expect(terra.formatTransactionHash(txHash)).to.be.equal(txHash)
+  })
+
+  it('should validate terra erc20Assets', () => {
+    const sizeOfErc20Assets = Object.keys(erc20Assets).length
+    expect(sizeOfErc20Assets).to.be.gt(2)
+    for (let i = 0; i < sizeOfErc20Assets; i++) {
+      expect(`${Object.values(erc20Assets)[i].chain}`).to.be.equal('terra')
+      expect(`${Object.values(erc20Assets)[i].name}`).not.to.be.null
+      expect(`${Object.values(erc20Assets)[i].decimals}`).to.be.equal('6')
+      expect(`${Object.values(erc20Assets)[i].code}`).not.to.be.null
+      expect(`${Object.values(erc20Assets)[i].contractAddress}`).not.to.be.null
+      expect(`${Object.values(erc20Assets)[i].type}`).to.be.equal('erc20')
+    }
   })
 })

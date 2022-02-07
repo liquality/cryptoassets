@@ -1,8 +1,9 @@
 import { expect } from 'chai'
-import { chains } from '../../src'
+import { chains, chainToTokenAddressMap } from '../../src'
 
 describe('Avalanche chain tests', function () {
   const avalanche = chains.avalanche
+  const erc20Assets = chainToTokenAddressMap.avalanche
 
   it('Has correct name', () => {
     expect(avalanche.name).to.be.equal('Avalanche', 'Invalid chain name')
@@ -77,5 +78,18 @@ describe('Avalanche chain tests', function () {
   it('Provides correct Transaction Hash formatting', () => {
     const txHash = '0x1ecb618078b4418c3b74254f7c8cfc7301deafd5c70177be4581d9625cfba53c'
     expect(avalanche.formatTransactionHash(txHash)).to.be.equal(txHash)
+  })
+
+  it('should validate avalanche erc20Assets', () => {
+    const sizeOfErc20Assets = Object.keys(erc20Assets).length
+    expect(sizeOfErc20Assets).to.be.gt(2)
+    for (let i = 0; i < sizeOfErc20Assets; i++) {
+      expect(`${Object.values(erc20Assets)[i].chain}`).to.be.equal('avalanche')
+      expect(`${Object.values(erc20Assets)[i].name}`).not.to.be.null
+      expect(`${Object.values(erc20Assets)[i].decimals}`).oneOf(['6', '8'])
+      expect(`${Object.values(erc20Assets)[i].code}`).not.to.be.null
+      expect(`${Object.values(erc20Assets)[i].contractAddress}`).not.to.be.null
+      expect(`${Object.values(erc20Assets)[i].type}`).to.be.equal('erc20')
+    }
   })
 })
