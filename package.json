@@ -72,8 +72,7 @@
   },
   "pre-commit": [
     "lint",
-    "build",
-    "test"
+    "build"
   ],
   "publishConfig": {
     "access": "public"
