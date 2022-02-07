@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import { chains } from '../../src'
 
-describe.only('Avalanche chain tests', function () {
+describe('Avalanche chain tests', function () {
   const avalanche = chains.avalanche
 
   it('Has correct name', () => {
