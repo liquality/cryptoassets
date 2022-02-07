@@ -199,7 +199,7 @@ const chains: { [key in ChainId]: Chain } = {
     isValidAddress: (hexAddress: string) => isValidAddress(with0x(hexAddress)),
     formatAddress: (hexAddress: string) => toChecksumAddress(with0x(hexAddress)),
     isValidTransactionHash: (hash: string) => isValidHex(hash),
-    formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
+    formatTransactionHash: (hash: string) => hash
   }
 }
 

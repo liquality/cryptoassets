@@ -74,8 +74,8 @@ describe('Avalanche chain tests', function () {
     expect(avalanche.isValidTransactionHash(invalidTxHashInvalidSigner)).to.be.false
   })
 
-  it('Provides correct tx formatting', () => {
-    const txHash = '0xb4ec649426ba04cd0407d5929288ff3d59d8baca9b810cf4147620bab6dadba3'
+  it('Provides correct Transaction Hash formatting', () => {
+    const txHash = '0x1ecb618078b4418c3b74254f7c8cfc7301deafd5c70177be4581d9625cfba53c'
     expect(avalanche.formatTransactionHash(txHash)).to.be.equal(txHash)
   })
 })
