@@ -2,6 +2,7 @@ on:
   pull_request:
     branches:
       - master
+      - dev
       - '!renovate/**'
 
 name: PullRequest tests
@@ -26,7 +27,7 @@ jobs:
           path: ~/.npm
           key: ${{ runner.os }}-build-${{ env.cache-name }}-node${{ env.node-version }}
 
-      - name: Build Project
+      - name: Run tests
         run: |
           npm test
 
