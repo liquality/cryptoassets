@@ -30,5 +30,8 @@ tmp
 # Users Environment Variables
 .lock-wscript
 
+# .nyc data
+.nyc*
+
 dist
 tokens-master
