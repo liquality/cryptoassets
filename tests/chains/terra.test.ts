@@ -77,7 +77,7 @@ describe('Terra chain tests', function () {
     for (let i = 0; i < sizeOfErc20Assets; i++) {
       expect(`${Object.values(erc20Assets)[i].chain}`).to.be.equal('terra')
       expect(`${Object.values(erc20Assets)[i].name}`).not.to.be.null
-      expect(`${Object.values(erc20Assets)[i].decimals}`).to.be.equal('6')
+      expect(`${Object.values(erc20Assets)[i].decimals}`).oneOf(['0', '2', '6', '8'])
       expect(`${Object.values(erc20Assets)[i].code}`).not.to.be.null
       expect(`${Object.values(erc20Assets)[i].contractAddress}`).not.to.be.null
       expect(`${Object.values(erc20Assets)[i].type}`).to.be.equal('erc20')
