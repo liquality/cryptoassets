@@ -3,6 +3,7 @@ import { mapValues, transform } from 'lodash'
 import ethereumTokens from './ethereum-tokens.json'
 import rskTokens from './rsk-tokens.json'
 import polygonTokens from './polygon-tokens.json'
+import avalancheTokens from './avalanche-tokens.json'
 import terraTokens from './terra-tokens.json'
 
 import { TESTNET_CONTRACT_ADDRESSES, TESTNET_TOKENS } from '../testnet'
@@ -23,13 +24,18 @@ const polygonTokensData = mapValues(polygonTokens, (tokenData) => ({
   chain: ChainId.Polygon
 }))
 
+const avalancheTokensData = mapValues(avalancheTokens, (tokenData) => ({
+  ...tokenData,
+  chain: ChainId.Avalanche
+}))
+
 const terraTokensData = mapValues(terraTokens, (tokenData) => ({
   ...tokenData,
   chain: ChainId.Terra
 }))
 
 const erc20Assets: AssetMap = mapValues(
-  { ...rskTokensData, ...ethereumTokensData, ...polygonTokensData, ...terraTokensData },
+  { ...rskTokensData, ...ethereumTokensData, ...polygonTokensData, ...terraTokensData, ...avalancheTokensData },
   (tokenData) => ({
     ...tokenData,
     type: 'erc20' as AssetType

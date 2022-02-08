@@ -185,6 +185,21 @@ const chains: { [key in ChainId]: Chain } = {
     formatAddress: (hexAddress: string) => toChecksumAddress(with0x(hexAddress)),
     isValidTransactionHash: (hash: string) => isValidHex(hash),
     formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
+  },
+  [ChainId.Avalanche]: {
+    name: 'Avalanche',
+    code: 'AVALANCHE',
+    nativeAsset: 'AVAX',
+    fees: {
+      unit: 'gwei'
+    },
+    safeConfirmations: 5,
+    // ~15 blocks per minute * 10 minutes -> 150 blocks wait period
+    txFailureTimeout: 600000, // in ms
+    isValidAddress: (hexAddress: string) => isValidAddress(with0x(hexAddress)),
+    formatAddress: (hexAddress: string) => toChecksumAddress(with0x(hexAddress)),
+    isValidTransactionHash: (hash: string) => isValidHex(hash),
+    formatTransactionHash: (hash: string) => hash
   }
 }
 
@@ -194,6 +209,7 @@ function isEthereumChain(chain: ChainId) {
     ChainId.Ethereum,
     ChainId.Rootstock,
     ChainId.Polygon,
+    ChainId.Avalanche,
     ChainId.Arbitrum,
     ChainId.Fuse
   ].includes(chain)

@@ -8,4 +8,17 @@ export const TESTNET_CONTRACT_ADDRESSES = {
 
 export const TESTNET_TOKENS = Object.keys(TESTNET_CONTRACT_ADDRESSES)
 
-export const TESTNET_NATIVE = ['BTC', 'ETH', 'RBTC', 'BNB', 'NEAR', 'MATIC', 'ARBETH', 'SOL', 'LUNA', 'UST', 'FUSE']
+export const TESTNET_NATIVE = [
+  'BTC',
+  'ETH',
+  'RBTC',
+  'BNB',
+  'NEAR',
+  'MATIC',
+  'ARBETH',
+  'SOL',
+  'LUNA',
+  'UST',
+  'FUSE',
+  'AVAX'
+]
