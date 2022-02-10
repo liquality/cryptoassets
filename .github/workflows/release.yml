@@ -1,0 +1,52 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - master
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2.4.0
+        with:
+          fetch-depth: 0
+
+      - name: Build project
+        uses: actions/setup-node@v2.5.1
+        with:
+          node-version: '14'
+
+      - uses: actions/cache@v2.1.7
+        id: cache
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-node${{ env.node-version }}
+
+      - run: sudo npm install --global cross-env
+
+      - name: build
+        run: |
+          npm ci
+          npm run build
+
+      - name: Semantic Release
+        uses: cycjimmy/semantic-release-action@v2.7.0
+        id: semantic
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Relese output details to GitHub # This is for testing
+        if: steps.semantic.outputs.new_release_published == 'true'
+        run: |
+          echo ${{ steps.semantic.outputs.new_release_version }}
+          echo ${{ steps.semantic.outputs.new_release_major_version }}
+          echo ${{ steps.semantic.outputs.new_release_minor_version }}
+          echo ${{ steps.semantic.outputs.new_release_patch_version }}
+
+
+
+
+
