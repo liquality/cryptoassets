@@ -1,6 +1,6 @@
 # Cryptoassets js
 
-[![Build Status](https://travis-ci.com/liquality/cryptoassets.svg?branch=master)](https://travis-ci.com/liquality/cryptoassets)
+[![Release](https://github.com/liquality/cryptoassets/actions/workflows/release.yml/badge.svg)](https://github.com/liquality/cryptoassets/actions/workflows/release.yml)
 [![Standard Code Style](https://img.shields.io/badge/codestyle-standard-brightgreen.svg)](https://github.com/standard/standard)
 [![MIT License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](./LICENSE.md)
 [![Cryptoassets](https://img.shields.io/npm/dt/@liquality/cryptoassets.svg)](https://npmjs.com/package/@liquality/cryptoassets)
