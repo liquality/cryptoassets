@@ -1,4 +1,4 @@
-const sendFees = {
+const sendGasLimits = {
   BTC: 290,
   NATIVE_EVM: 21000, // EVM -> ETH, RBTC, MATIC, BNB, AVAX, FUSE
   ERC20_EVM: 90000, // EVM -> ETH, RBTC, MATIC, BNB, AVAX, FUSE
@@ -8,4 +8,4 @@ const sendFees = {
   SOL: 1000000
 }
 
-export { sendFees }
+export { sendGasLimits }

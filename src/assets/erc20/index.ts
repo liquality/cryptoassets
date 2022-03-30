@@ -8,36 +8,36 @@ import terraTokens from './terra-tokens.json'
 
 import { TESTNET_CONTRACT_ADDRESSES, TESTNET_TOKENS } from '../testnet'
 import { Asset, ChainId, AssetType, AssetMap } from '../../types'
-import { sendFees } from '../sendFees'
+import { sendGasLimits } from '../sendGasLimits'
 
 const rskTokensData = mapValues(rskTokens, (tokenData) => ({
   ...tokenData,
   chain: ChainId.Rootstock,
-  sendFee: sendFees.ERC20_EVM
+  sendGasLimit: sendGasLimits.ERC20_EVM
 }))
 
 const ethereumTokensData = mapValues(ethereumTokens, (tokenData) => ({
   ...tokenData,
   chain: ChainId.Ethereum,
-  sendFee: sendFees.ERC20_EVM
+  sendGasLimit: sendGasLimits.ERC20_EVM
 }))
 
 const polygonTokensData = mapValues(polygonTokens, (tokenData) => ({
   ...tokenData,
   chain: ChainId.Polygon,
-  sendFee: sendFees.ERC20_EVM
+  sendGasLimit: sendGasLimits.ERC20_EVM
 }))
 
 const avalancheTokensData = mapValues(avalancheTokens, (tokenData) => ({
   ...tokenData,
   chain: ChainId.Avalanche,
-  sendFee: sendFees.ERC20_EVM
+  sendGasLimit: sendGasLimits.ERC20_EVM
 }))
 
 const terraTokensData = mapValues(terraTokens, (tokenData) => ({
   ...tokenData,
   chain: ChainId.Terra,
-  sendFee: sendFees.TERRA
+  sendGasLimit: sendGasLimits.TERRA
 }))
 
 const erc20Assets: AssetMap = mapValues(
