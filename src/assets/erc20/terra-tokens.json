@@ -594,5 +594,47 @@
     "code": "whgSAIL",
     "decimals": 8,
     "contractAddress": "terra1rl0cpwgtwl4utnaynugevdje37fnmsea7rv4uu"
+  },
+  "nLUNA": {
+    "name": "nLUNA",
+    "code": "nLUNA",
+    "decimals": 6,
+    "contractAddress": "terra10f2mt82kjnkxqj2gepgwl637u2w4ue2z5nhz5j"
+  },
+  "nETH": {
+    "name": "nETH",
+    "code": "nETH",
+    "decimals": 6,
+    "contractAddress": "terra178v546c407pdnx5rer3hu8s2c0fc924k74ymnn"
+  },
+  "wgOHM": {
+    "name": "wgOHM",
+    "code": "wgOHM",
+    "decimals": 6,
+    "contractAddress": "terra1fpfn2kkr8mv390wx4dtpfk3vkjx9ch3thvykl3"
+  },
+  "wAVAX": {
+    "name": "wAVAX",
+    "code": "wAVAX",
+    "decimals": 6,
+    "contractAddress": "terra1hj8de24c3yqvcsv9r8chr03fzwsak3hgd8gv3m"
+  },
+  "wsoUSDC": {
+    "name": "wsoUSDC",
+    "code": "wsoUSDC",
+    "decimals": 6,
+    "contractAddress": "terra1e6mq63y64zcxz8xyu5van4tgkhemj3r86yvgu4"
+  },
+  "wavUSDC": {
+    "name": "wavUSDC",
+    "code": "wavUSDC",
+    "decimals": 6,
+    "contractAddress": "terra1pvel56a2hs93yd429pzv9zp5aptcjg5ulhkz7w"
+  },
+  "wBUSD": {
+    "name": "wBUSD",
+    "code": "wBUSD",
+    "decimals": 6,
+    "contractAddress": "terra1skjr69exm6v8zellgjpaa2emhwutrk5a6dz7dd"
   }
 }
