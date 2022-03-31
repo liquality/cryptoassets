@@ -1,12 +1,12 @@
 import { TESTNET_NATIVE } from './testnet'
-import { AssetMap, ChainId } from '../types'
+import { AssetMap, ChainId, AssetTypes } from '../types'
 import { sendGasLimits } from '../assets/sendGasLimits'
 
 const nativeAssets: AssetMap = {
   BTC: {
     name: 'Bitcoin',
     chain: ChainId.Bitcoin,
-    type: 'native',
+    type: AssetTypes.native,
     code: 'BTC',
     coinGeckoId: 'bitcoin',
     color: '#f7931a',
@@ -16,7 +16,7 @@ const nativeAssets: AssetMap = {
   BCH: {
     name: 'Bitcoin Cash',
     chain: ChainId.BitcoinCash,
-    type: 'native',
+    type: AssetTypes.native,
     code: 'BCH',
     coinGeckoId: 'bitcoin-cash',
     color: '#a1db5e',
@@ -26,7 +26,7 @@ const nativeAssets: AssetMap = {
   ETH: {
     name: 'Ether',
     chain: ChainId.Ethereum,
-    type: 'native',
+    type: AssetTypes.native,
     code: 'ETH',
     coinGeckoId: 'ethereum',
     color: '#627eea',
@@ -36,7 +36,7 @@ const nativeAssets: AssetMap = {
   RBTC: {
     name: 'Rootstock BTC',
     chain: ChainId.Rootstock,
-    type: 'native',
+    type: AssetTypes.native,
     code: 'RBTC',
     coinGeckoId: 'rootstock',
     color: '#006e3c',
@@ -46,7 +46,7 @@ const nativeAssets: AssetMap = {
   BNB: {
     name: 'Binance Coin',
     chain: ChainId.BinanceSmartChain,
-    type: 'native',
+    type: AssetTypes.native,
     code: 'BNB',
     coinGeckoId: 'binancecoin',
     color: '#f9a825',
@@ -56,7 +56,7 @@ const nativeAssets: AssetMap = {
   NEAR: {
     name: 'Near',
     chain: ChainId.Near,
-    type: 'native',
+    type: AssetTypes.native,
     code: 'NEAR',
     coinGeckoId: 'near',
     color: '#000000',
@@ -66,7 +66,7 @@ const nativeAssets: AssetMap = {
   SOL: {
     name: 'Solana',
     chain: ChainId.Solana,
-    type: 'native',
+    type: AssetTypes.native,
     code: 'SOL',
     coinGeckoId: 'solana',
     color: '#008080',
@@ -76,7 +76,7 @@ const nativeAssets: AssetMap = {
   MATIC: {
     name: 'Matic',
     chain: ChainId.Polygon,
-    type: 'native',
+    type: AssetTypes.native,
     code: 'MATIC',
     coinGeckoId: 'matic-network',
     color: '#8247E5',
@@ -86,7 +86,7 @@ const nativeAssets: AssetMap = {
   ARBETH: {
     name: 'Arbitrum ETH',
     chain: ChainId.Arbitrum,
-    type: 'native',
+    type: AssetTypes.native,
     code: 'ARBETH',
     coinGeckoId: 'ethereum',
     color: '#28A0EF',
@@ -97,7 +97,7 @@ const nativeAssets: AssetMap = {
   FUSE: {
     name: 'Fuse Network',
     chain: ChainId.Fuse,
-    type: 'native',
+    type: AssetTypes.native,
     code: 'FUSE',
     coinGeckoId: 'fuse-network-token',
     color: '#46e8b6',
@@ -107,7 +107,7 @@ const nativeAssets: AssetMap = {
   LUNA: {
     name: 'Luna',
     chain: ChainId.Terra,
-    type: 'native',
+    type: AssetTypes.native,
     code: 'LUNA',
     coinGeckoId: 'terra-luna',
     color: '#008080',
@@ -117,7 +117,7 @@ const nativeAssets: AssetMap = {
   UST: {
     name: 'TerraUSD',
     chain: ChainId.Terra,
-    type: 'native',
+    type: AssetTypes.native,
     code: 'UST',
     decimals: 6,
     color: '#0083ff',
@@ -128,7 +128,7 @@ const nativeAssets: AssetMap = {
   AVAX: {
     name: 'Avalanche',
     chain: ChainId.Avalanche,
-    type: 'native',
+    type: AssetTypes.native,
     code: 'AVAX',
     coinGeckoId: 'avalanche-2',
     color: '#E84141',

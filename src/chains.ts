@@ -215,4 +215,8 @@ function isEthereumChain(chain: ChainId) {
   ].includes(chain)
 }
 
-export { chains, isEthereumChain }
+function nonERC20SupportChain(chain: ChainId) {
+  return [ChainId.Bitcoin, ChainId.BitcoinCash, ChainId.Near, ChainId.Solana].includes(chain)
+}
+
+export { chains, isEthereumChain, nonERC20SupportChain }

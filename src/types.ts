@@ -13,7 +13,12 @@ export interface Chain {
   formatTransactionHash: (hash: string) => string
 }
 
-export type AssetType = 'native' | 'erc20'
+export enum AssetTypes {
+  native = 'native',
+  erc20 = 'erc20'
+}
+
+export type AssetType = AssetTypes.native | AssetTypes.erc20
 
 export enum ChainId {
   Bitcoin = 'bitcoin',
