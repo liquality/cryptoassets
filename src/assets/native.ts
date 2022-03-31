@@ -1,6 +1,6 @@
 import { TESTNET_NATIVE } from './testnet'
 import { AssetMap, ChainId, AssetTypes } from '../types'
-import { sendGasLimits } from '../assets/sendGasLimits'
+import { sendGasLimits } from './sendGasLimits'
 
 const nativeAssets: AssetMap = {
   BTC: {

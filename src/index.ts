@@ -1,8 +1,14 @@
 import BigNumber from 'bignumber.js'
-import { assets, testnetAssets, chainToTokenAddressMap, chainToTestnetTokenAddressMap } from './assets'
+import {
+  assets,
+  testnetAssets,
+  chainToTokenAddressMap,
+  chainToTestnetTokenAddressMap,
+  getSendGasLimitERC20
+} from './assets'
 import { chains, isEthereumChain } from './chains'
 import { dappChains } from './dapps'
-import { Asset, AssetTypes, ChainId } from './types'
+import { Asset, AssetType, AssetTypes, ChainId } from './types'
 
 function unitToCurrency(asset: Asset, value: number | BigNumber): BigNumber {
   const multiplier = new BigNumber(10).pow(asset.decimals)
@@ -19,12 +25,14 @@ export {
   chainToTokenAddressMap,
   testnetAssets,
   chainToTestnetTokenAddressMap,
+  getSendGasLimitERC20,
   chains,
   dappChains,
   isEthereumChain,
   unitToCurrency,
   currencyToUnit,
   Asset,
+  AssetType,
   AssetTypes,
   ChainId
 }
