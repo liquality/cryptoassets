@@ -7,6 +7,8 @@ export interface Chain {
   }
   safeConfirmations: number
   txFailureTimeout: number
+  evmCompatible: boolean
+  supportsNonNativeAssets: boolean
   isValidAddress: (address: string, network?: string) => boolean
   formatAddress: (address: string, network?: string) => string
   isValidTransactionHash: (hash: string) => boolean

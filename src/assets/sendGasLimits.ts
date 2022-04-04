@@ -1,5 +1,5 @@
 import { ChainId } from '../types'
-import { nonERC20SupportChain } from '../chains'
+import { supportsNonNativeAssets } from '../chains'
 
 const sendGasLimits = {
   BTC: 290,
@@ -12,7 +12,7 @@ const sendGasLimits = {
 }
 
 const getSendGasLimitERC20 = (chainId: ChainId): number | null => {
-  if (nonERC20SupportChain(chainId)) {
+  if (!supportsNonNativeAssets(chainId)) {
     return null
   }
 
