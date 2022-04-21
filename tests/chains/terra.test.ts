@@ -18,7 +18,7 @@ describe('Terra chain tests', function () {
   })
 
   it('Has correct fee unit', () => {
-    expect(terra.fees.unit).to.be.equal('LUNA', 'Invalid fee unit')
+    expect(terra.fees.unit).to.be.equal('UST', 'Invalid fee unit')
   })
 
   it('Has correct number of confirmations', () => {
