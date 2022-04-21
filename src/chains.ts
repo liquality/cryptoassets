@@ -131,7 +131,7 @@ const chains: { [key in ChainId]: Chain } = {
     code: 'LUNA',
     nativeAsset: 'LUNA',
     fees: {
-      unit: 'LUNA'
+      unit: 'UST'
     },
     safeConfirmations: 1,
     // ~10 blocks per minute * 15 minutes -> 150 blocks wait period
