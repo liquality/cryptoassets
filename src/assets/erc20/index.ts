@@ -8,30 +8,36 @@ import terraTokens from './terra-tokens.json'
 
 import { TESTNET_CONTRACT_ADDRESSES, TESTNET_TOKENS } from '../testnet'
 import { Asset, ChainId, AssetType, AssetMap } from '../../types'
+import { sendGasLimits } from '../sendGasLimits'
 
 const rskTokensData = mapValues(rskTokens, (tokenData) => ({
   ...tokenData,
-  chain: ChainId.Rootstock
+  chain: ChainId.Rootstock,
+  sendGasLimit: sendGasLimits.ERC20_EVM
 }))
 
 const ethereumTokensData = mapValues(ethereumTokens, (tokenData) => ({
   ...tokenData,
-  chain: ChainId.Ethereum
+  chain: ChainId.Ethereum,
+  sendGasLimit: sendGasLimits.ERC20_EVM
 }))
 
 const polygonTokensData = mapValues(polygonTokens, (tokenData) => ({
   ...tokenData,
-  chain: ChainId.Polygon
+  chain: ChainId.Polygon,
+  sendGasLimit: sendGasLimits.ERC20_EVM
 }))
 
 const avalancheTokensData = mapValues(avalancheTokens, (tokenData) => ({
   ...tokenData,
-  chain: ChainId.Avalanche
+  chain: ChainId.Avalanche,
+  sendGasLimit: sendGasLimits.ERC20_EVM
 }))
 
 const terraTokensData = mapValues(terraTokens, (tokenData) => ({
   ...tokenData,
-  chain: ChainId.Terra
+  chain: ChainId.Terra,
+  sendGasLimit: sendGasLimits.TERRA
 }))
 
 const erc20Assets: AssetMap = mapValues(

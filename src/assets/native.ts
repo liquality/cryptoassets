@@ -1,5 +1,6 @@
 import { TESTNET_NATIVE } from './testnet'
 import { AssetMap, ChainId } from '../types'
+import { sendGasLimits } from '../assets/sendGasLimits'
 
 const nativeAssets: AssetMap = {
   BTC: {
@@ -9,7 +10,8 @@ const nativeAssets: AssetMap = {
     code: 'BTC',
     coinGeckoId: 'bitcoin',
     color: '#f7931a',
-    decimals: 8
+    decimals: 8,
+    sendGasLimit: sendGasLimits.BTC
   },
   BCH: {
     name: 'Bitcoin Cash',
@@ -18,7 +20,8 @@ const nativeAssets: AssetMap = {
     code: 'BCH',
     coinGeckoId: 'bitcoin-cash',
     color: '#a1db5e',
-    decimals: 8
+    decimals: 8,
+    sendGasLimit: sendGasLimits.BTC // TODO: is this correct?
   },
   ETH: {
     name: 'Ether',
@@ -27,7 +30,8 @@ const nativeAssets: AssetMap = {
     code: 'ETH',
     coinGeckoId: 'ethereum',
     color: '#627eea',
-    decimals: 18
+    decimals: 18,
+    sendGasLimit: sendGasLimits.NATIVE_EVM
   },
   RBTC: {
     name: 'Rootstock BTC',
@@ -36,7 +40,8 @@ const nativeAssets: AssetMap = {
     code: 'RBTC',
     coinGeckoId: 'rootstock',
     color: '#006e3c',
-    decimals: 18
+    decimals: 18,
+    sendGasLimit: sendGasLimits.NATIVE_EVM
   },
   BNB: {
     name: 'Binance Coin',
@@ -45,7 +50,8 @@ const nativeAssets: AssetMap = {
     code: 'BNB',
     coinGeckoId: 'binancecoin',
     color: '#f9a825',
-    decimals: 18
+    decimals: 18,
+    sendGasLimit: sendGasLimits.NATIVE_EVM
   },
   NEAR: {
     name: 'Near',
@@ -54,7 +60,8 @@ const nativeAssets: AssetMap = {
     code: 'NEAR',
     coinGeckoId: 'near',
     color: '#000000',
-    decimals: 24
+    decimals: 24,
+    sendGasLimit: sendGasLimits.NEAR
   },
   SOL: {
     name: 'Solana',
@@ -63,7 +70,8 @@ const nativeAssets: AssetMap = {
     code: 'SOL',
     coinGeckoId: 'solana',
     color: '#008080',
-    decimals: 9
+    decimals: 9,
+    sendGasLimit: sendGasLimits.SOL
   },
   MATIC: {
     name: 'Matic',
@@ -72,7 +80,8 @@ const nativeAssets: AssetMap = {
     code: 'MATIC',
     coinGeckoId: 'matic-network',
     color: '#8247E5',
-    decimals: 18
+    decimals: 18,
+    sendGasLimit: sendGasLimits.NATIVE_EVM
   },
   ARBETH: {
     name: 'Arbitrum ETH',
@@ -82,7 +91,8 @@ const nativeAssets: AssetMap = {
     coinGeckoId: 'ethereum',
     color: '#28A0EF',
     decimals: 18,
-    matchingAsset: 'ETH'
+    matchingAsset: 'ETH',
+    sendGasLimit: sendGasLimits.ARBETH
   },
   FUSE: {
     name: 'Fuse Network',
@@ -91,7 +101,8 @@ const nativeAssets: AssetMap = {
     code: 'FUSE',
     coinGeckoId: 'fuse-network-token',
     color: '#46e8b6',
-    decimals: 18
+    decimals: 18,
+    sendGasLimit: sendGasLimits.NATIVE_EVM
   },
   LUNA: {
     name: 'Luna',
@@ -100,7 +111,8 @@ const nativeAssets: AssetMap = {
     code: 'LUNA',
     coinGeckoId: 'terra-luna',
     color: '#008080',
-    decimals: 6
+    decimals: 6,
+    sendGasLimit: sendGasLimits.TERRA
   },
   UST: {
     name: 'TerraUSD',
@@ -110,7 +122,8 @@ const nativeAssets: AssetMap = {
     decimals: 6,
     color: '#0083ff',
     coinGeckoId: 'terrausd',
-    feeAsset: 'UST'
+    feeAsset: 'UST',
+    sendGasLimit: sendGasLimits.TERRA
   },
   AVAX: {
     name: 'Avalanche',
@@ -119,7 +132,8 @@ const nativeAssets: AssetMap = {
     code: 'AVAX',
     coinGeckoId: 'avalanche-2',
     color: '#E84141',
-    decimals: 18
+    decimals: 18,
+    sendGasLimit: sendGasLimits.NATIVE_EVM
   }
 }
 
