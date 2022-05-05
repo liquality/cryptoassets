@@ -84,5 +84,19 @@
     "decimals": 18,
     "contractAddress": "0x1d931bf8656d795e50ef6d639562c5bd8ac2b78f",
     "color": "#333333"
+  },
+  "bXAU": {
+    "name": "Blindex Gold",
+    "code": "bXAU",
+    "decimals": 18,
+    "contractAddress": "0xa4a8fb98a26e5314397170e5d12da8b73dc2ceb5",
+    "color": "#ED6C0F"
+  },
+  "bGBP": {
+    "name": "Blindex GBP",
+    "code": "bGBP",
+    "decimals": 18,
+    "contractAddress": "0x2415e222755fd1f07b0a565eb4f036e410852ee0",
+    "color": "#ED6C0F"
   }
 }
