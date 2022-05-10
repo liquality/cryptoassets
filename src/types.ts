@@ -7,13 +7,20 @@ export interface Chain {
   }
   safeConfirmations: number
   txFailureTimeout: number
+  evmCompatible: boolean
+  hasTokens: boolean
   isValidAddress: (address: string, network?: string) => boolean
   formatAddress: (address: string, network?: string) => string
   isValidTransactionHash: (hash: string) => boolean
   formatTransactionHash: (hash: string) => string
 }
 
-export type AssetType = 'native' | 'erc20'
+export enum AssetTypes {
+  native = 'native',
+  erc20 = 'erc20'
+}
+
+export type AssetType = AssetTypes.native | AssetTypes.erc20
 
 export enum ChainId {
   Bitcoin = 'bitcoin',
