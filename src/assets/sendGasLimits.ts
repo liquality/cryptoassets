@@ -1,5 +1,5 @@
 import { ChainId } from '../types'
-import { supportsNonNativeAssets } from '../chains'
+import { hasTokens } from '../chains'
 
 const sendGasLimits = {
   BTC: 290,
@@ -12,8 +12,8 @@ const sendGasLimits = {
 }
 
 const getSendGasLimitERC20 = (chainId: ChainId): number | null => {
-  if (!supportsNonNativeAssets(chainId)) {
-    return null
+  if (!hasTokens(chainId)) {
+    throw new Error(`Chain '${chainId}' doesn't support tokens!`)
   }
 
   switch (chainId) {

@@ -29,7 +29,7 @@ const chains: { [key in ChainId]: Chain } = {
     // 0,1 blocks per minute * 180 minutes (3 hours) -> 18 blocks wait period
     txFailureTimeout: 10800000, // 3 hours in ms
     evmCompatible: false,
-    supportsNonNativeAssets: false,
+    hasTokens: false,
     // TODO: include network types in validation
     isValidAddress: (address) => !!validateBitcoinAddress(address),
     formatAddress: (address) => address,
@@ -47,7 +47,7 @@ const chains: { [key in ChainId]: Chain } = {
     // ~0,1 blocks per minute * 180 minutes (3 hours) -> 18 blocks wait period
     txFailureTimeout: 10800000, // 3 hours in ms
     evmCompatible: false,
-    supportsNonNativeAssets: false,
+    hasTokens: false,
     // TODO: include network types in validation
     isValidAddress: (address) => isValidBitcoinCashAddress(address),
     formatAddress: (address) => formatBitcoinCashAddress(address),
@@ -65,7 +65,7 @@ const chains: { [key in ChainId]: Chain } = {
     // ~4 blocks per minute * 30 minutes -> 120 blocks wait period
     txFailureTimeout: 1800000, // in ms
     evmCompatible: true,
-    supportsNonNativeAssets: true,
+    hasTokens: true,
     isValidAddress: (hexAddress: string) => isValidAddress(with0x(hexAddress)),
     formatAddress: (hexAddress: string) => toChecksumAddress(with0x(hexAddress)),
     isValidTransactionHash: (hash: string) => isValidHex(hash),
@@ -82,7 +82,7 @@ const chains: { [key in ChainId]: Chain } = {
     // ~3 blocks per minute * 30 minutes -> 90 blocks wait period
     txFailureTimeout: 1800000, // in ms
     evmCompatible: true,
-    supportsNonNativeAssets: true,
+    hasTokens: true,
     isValidAddress: (hexAddress: string) => isValidAddress(with0x(hexAddress)),
     formatAddress: (hexAddress: string, network?: string) =>
       toChecksumAddress(with0x(hexAddress), getRSKChainID(network)),
@@ -100,7 +100,7 @@ const chains: { [key in ChainId]: Chain } = {
     // ~20 blocks per minute * 10 minutes -> 200 blocks wait period
     txFailureTimeout: 600000, // in ms
     evmCompatible: true,
-    supportsNonNativeAssets: true,
+    hasTokens: true,
     isValidAddress: (hexAddress: string) => isValidAddress(with0x(hexAddress)),
     formatAddress: (hexAddress: string) => toChecksumAddress(with0x(hexAddress)),
     isValidTransactionHash: (hash: string) => isValidHex(hash),
@@ -117,7 +117,7 @@ const chains: { [key in ChainId]: Chain } = {
     // ~50 blocks per minute * 5 minutes -> 250 blocks wait period
     txFailureTimeout: 300000, // in ms
     evmCompatible: false,
-    supportsNonNativeAssets: false,
+    hasTokens: false,
     isValidAddress: (address) => isValidNearAddress(address),
     formatAddress: (address) => address,
     isValidTransactionHash: (hash: string) => isValidNearTx(hash),
@@ -134,7 +134,7 @@ const chains: { [key in ChainId]: Chain } = {
     // ~120 blocks per minute * 5 minutes -> 600 blocks wait period
     txFailureTimeout: 300000, // in ms
     evmCompatible: false,
-    supportsNonNativeAssets: false,
+    hasTokens: false,
     isValidAddress: (address) => isValidSolanaAddress(address),
     formatAddress: (address) => address,
     isValidTransactionHash: (hash: string) => isValidSolanaTx(hash),
@@ -151,7 +151,7 @@ const chains: { [key in ChainId]: Chain } = {
     // ~10 blocks per minute * 15 minutes -> 150 blocks wait period
     txFailureTimeout: 900000, // in ms
     evmCompatible: false,
-    supportsNonNativeAssets: true,
+    hasTokens: true,
     isValidAddress: (address) => isValidTerraAddress(address),
     formatAddress: (address) => address,
     isValidTransactionHash: (hash: string) => isValidTerraTx(hash),
@@ -168,7 +168,7 @@ const chains: { [key in ChainId]: Chain } = {
     // ~30 blocks per minute * 10 minutes -> 300 blocks wait period
     txFailureTimeout: 600000, // in ms
     evmCompatible: true,
-    supportsNonNativeAssets: true,
+    hasTokens: true,
     isValidAddress: (hexAddress: string) => isValidAddress(with0x(hexAddress)),
     formatAddress: (hexAddress: string) => toChecksumAddress(with0x(hexAddress)),
     isValidTransactionHash: (hash: string) => isValidHex(hash),
@@ -185,7 +185,7 @@ const chains: { [key in ChainId]: Chain } = {
     // ~15 blocks per minute * 10 minutes -> 150 blocks wait period
     txFailureTimeout: 600000, // in ms
     evmCompatible: true,
-    supportsNonNativeAssets: true,
+    hasTokens: true,
     isValidAddress: (hexAddress: string) => isValidAddress(with0x(hexAddress)),
     formatAddress: (hexAddress: string) => toChecksumAddress(with0x(hexAddress)),
     isValidTransactionHash: (hash: string) => isValidHex(hash),
@@ -202,7 +202,7 @@ const chains: { [key in ChainId]: Chain } = {
     // ~12 blocks per minute * 15 minutes -> 180 blocks wait period
     txFailureTimeout: 900000, // in ms
     evmCompatible: true,
-    supportsNonNativeAssets: true,
+    hasTokens: true,
     isValidAddress: (hexAddress: string) => isValidAddress(with0x(hexAddress)),
     formatAddress: (hexAddress: string) => toChecksumAddress(with0x(hexAddress)),
     isValidTransactionHash: (hash: string) => isValidHex(hash),
@@ -219,7 +219,7 @@ const chains: { [key in ChainId]: Chain } = {
     // ~15 blocks per minute * 10 minutes -> 150 blocks wait period
     txFailureTimeout: 600000, // in ms
     evmCompatible: true,
-    supportsNonNativeAssets: true,
+    hasTokens: true,
     isValidAddress: (hexAddress: string) => isValidAddress(with0x(hexAddress)),
     formatAddress: (hexAddress: string) => toChecksumAddress(with0x(hexAddress)),
     isValidTransactionHash: (hash: string) => isValidHex(hash),
@@ -231,8 +231,8 @@ function isEthereumChain(chain: ChainId) {
   return chains[chain].evmCompatible
 }
 
-function supportsNonNativeAssets(chain: ChainId) {
-  return chains[chain].supportsNonNativeAssets
+function hasTokens(chain: ChainId) {
+  return chains[chain].hasTokens
 }
 
-export { chains, isEthereumChain, supportsNonNativeAssets }
+export { chains, isEthereumChain, hasTokens }
