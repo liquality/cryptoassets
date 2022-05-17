@@ -76,14 +76,18 @@
     "code": "XUSD",
     "decimals": 18,
     "contractAddress": "0xb5999795be0ebb5bab23144aa5fd6a02d080299f",
-    "color": "#7D7E7D"
+    "color": "#7D7E7D",
+    "coinGeckoId": "tether",
+    "matchingAsset": "USDT"
   },
   "ETHs": {
     "name": "Rootstock ETH",
     "code": "ETHs",
     "decimals": 18,
     "contractAddress": "0x1d931bf8656d795e50ef6d639562c5bd8ac2b78f",
-    "color": "#333333"
+    "color": "#333333",
+    "coinGeckoId": "ethereum",
+    "matchingAsset": "ETH"
   },
   "bXAU": {
     "name": "Blindex Gold",
