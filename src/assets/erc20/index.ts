@@ -5,6 +5,7 @@ import rskTokens from './rsk-tokens.json'
 import polygonTokens from './polygon-tokens.json'
 import avalancheTokens from './avalanche-tokens.json'
 import terraTokens from './terra-tokens.json'
+import arbitrumTokens from './arbitrum-tokens.json'
 
 import { TESTNET_CONTRACT_ADDRESSES, TESTNET_TOKENS } from '../testnet'
 import { Asset, ChainId, AssetType, AssetMap } from '../../types'
@@ -40,8 +41,21 @@ const terraTokensData = mapValues(terraTokens, (tokenData) => ({
   sendGasLimit: sendGasLimits.TERRA
 }))
 
+const arbitrumTokensData = mapValues(arbitrumTokens, (tokenData) => ({
+  ...tokenData,
+  chain: ChainId.Arbitrum,
+  sendGasLimit: sendGasLimits.ARBETH
+}))
+
 const erc20Assets: AssetMap = mapValues(
-  { ...rskTokensData, ...ethereumTokensData, ...polygonTokensData, ...terraTokensData, ...avalancheTokensData },
+  {
+    ...rskTokensData,
+    ...ethereumTokensData,
+    ...polygonTokensData,
+    ...terraTokensData,
+    ...avalancheTokensData,
+    ...arbitrumTokensData
+  },
   (tokenData) => ({
     ...tokenData,
     type: 'erc20' as AssetType

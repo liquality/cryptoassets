@@ -1,5 +1,6 @@
 import { nativeAssets, testnetNativeAssets } from './native'
 import { erc20Assets, testnetErc20Assets, chainToTokenAddressMap, chainToTestnetTokenAddressMap } from './erc20'
+import { getSendGasLimitERC20 } from './sendGasLimits'
 
 const assets = {
   ...nativeAssets,
@@ -11,4 +12,4 @@ const testnetAssets = {
   ...testnetErc20Assets
 }
 
-export { assets, testnetAssets, chainToTokenAddressMap, chainToTestnetTokenAddressMap }
+export { assets, testnetAssets, chainToTokenAddressMap, chainToTestnetTokenAddressMap, getSendGasLimitERC20 }
