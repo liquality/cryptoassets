@@ -3,12 +3,15 @@ import { hasTokens } from '../chains'
 
 const sendGasLimits = {
   BTC: 290,
-  NATIVE_EVM: 21000, // EVM -> ETH, RBTC, MATIC, BNB, AVAX, FUSE
+  NATIVE_EVM: 21000, // EVM -> ETH, RBTC, MATIC, BNB, AVAX, FUSE, NATIVE_OPTIMISM_L2
   ERC20_EVM: 90000, // EVM -> ETH, RBTC, MATIC, BNB, AVAX, FUSE
   TERRA: 100000, // applies on both native and ERC2 Terra assets
   ARBETH: 620000, // for native asset is around ~420k and for ERC20 ~540k
   NEAR: 10000000000000,
-  SOL: 1000000
+  SOL: 1000000,
+  NATIVE_OPTIMISM_L1: 4418,
+  ERC20_OPTIMISM_L2: 65000,
+  ERC20_OPTIMISM_L1: 5500
 }
 
 const getSendGasLimitERC20 = (chainId: ChainId): number | null => {

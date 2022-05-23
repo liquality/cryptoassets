@@ -6,6 +6,7 @@ import polygonTokens from './polygon-tokens.json'
 import avalancheTokens from './avalanche-tokens.json'
 import terraTokens from './terra-tokens.json'
 import arbitrumTokens from './arbitrum-tokens.json'
+import optimismTokens from './optimism-tokens.json'
 
 import { TESTNET_CONTRACT_ADDRESSES, TESTNET_TOKENS } from '../testnet'
 import { Asset, ChainId, AssetType, AssetMap } from '../../types'
@@ -47,6 +48,12 @@ const arbitrumTokensData = mapValues(arbitrumTokens, (tokenData) => ({
   sendGasLimit: sendGasLimits.ARBETH
 }))
 
+const optimismTokensData = mapValues(optimismTokens, (tokenData) => ({
+  ...tokenData,
+  chain: ChainId.Optimism,
+  sendGasLimit: { L1: sendGasLimits.ERC20_OPTIMISM_L1, L2: sendGasLimits.ERC20_OPTIMISM_L2 }
+}))
+
 const erc20Assets: AssetMap = mapValues(
   {
     ...rskTokensData,
@@ -54,7 +61,8 @@ const erc20Assets: AssetMap = mapValues(
     ...polygonTokensData,
     ...terraTokensData,
     ...avalancheTokensData,
-    ...arbitrumTokensData
+    ...arbitrumTokensData,
+    ...optimismTokensData
   },
   (tokenData) => ({
     ...tokenData,

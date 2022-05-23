@@ -30,6 +30,8 @@ const chains: { [key in ChainId]: Chain } = {
     txFailureTimeout: 10800000, // 3 hours in ms
     evmCompatible: false,
     hasTokens: false,
+    isMultiLayered: false,
+    hasFixedFee: false,
     // TODO: include network types in validation
     isValidAddress: (address) => !!validateBitcoinAddress(address),
     formatAddress: (address) => address,
@@ -48,6 +50,8 @@ const chains: { [key in ChainId]: Chain } = {
     txFailureTimeout: 10800000, // 3 hours in ms
     evmCompatible: false,
     hasTokens: false,
+    isMultiLayered: false,
+    hasFixedFee: false,
     // TODO: include network types in validation
     isValidAddress: (address) => isValidBitcoinCashAddress(address),
     formatAddress: (address) => formatBitcoinCashAddress(address),
@@ -66,6 +70,8 @@ const chains: { [key in ChainId]: Chain } = {
     txFailureTimeout: 1800000, // in ms
     evmCompatible: true,
     hasTokens: true,
+    isMultiLayered: false,
+    hasFixedFee: false,
     isValidAddress: (hexAddress: string) => isValidAddress(with0x(hexAddress)),
     formatAddress: (hexAddress: string) => toChecksumAddress(with0x(hexAddress)),
     isValidTransactionHash: (hash: string) => isValidHex(hash),
@@ -83,6 +89,8 @@ const chains: { [key in ChainId]: Chain } = {
     txFailureTimeout: 1800000, // in ms
     evmCompatible: true,
     hasTokens: true,
+    isMultiLayered: false,
+    hasFixedFee: false,
     isValidAddress: (hexAddress: string) => isValidAddress(with0x(hexAddress)),
     formatAddress: (hexAddress: string, network?: string) =>
       toChecksumAddress(with0x(hexAddress), getRSKChainID(network)),
@@ -101,6 +109,8 @@ const chains: { [key in ChainId]: Chain } = {
     txFailureTimeout: 600000, // in ms
     evmCompatible: true,
     hasTokens: true,
+    isMultiLayered: false,
+    hasFixedFee: false,
     isValidAddress: (hexAddress: string) => isValidAddress(with0x(hexAddress)),
     formatAddress: (hexAddress: string) => toChecksumAddress(with0x(hexAddress)),
     isValidTransactionHash: (hash: string) => isValidHex(hash),
@@ -118,6 +128,8 @@ const chains: { [key in ChainId]: Chain } = {
     txFailureTimeout: 300000, // in ms
     evmCompatible: false,
     hasTokens: false,
+    isMultiLayered: false,
+    hasFixedFee: false,
     isValidAddress: (address) => isValidNearAddress(address),
     formatAddress: (address) => address,
     isValidTransactionHash: (hash: string) => isValidNearTx(hash),
@@ -135,6 +147,8 @@ const chains: { [key in ChainId]: Chain } = {
     txFailureTimeout: 300000, // in ms
     evmCompatible: false,
     hasTokens: false,
+    isMultiLayered: false,
+    hasFixedFee: false,
     isValidAddress: (address) => isValidSolanaAddress(address),
     formatAddress: (address) => address,
     isValidTransactionHash: (hash: string) => isValidSolanaTx(hash),
@@ -152,6 +166,8 @@ const chains: { [key in ChainId]: Chain } = {
     txFailureTimeout: 900000, // in ms
     evmCompatible: false,
     hasTokens: true,
+    isMultiLayered: false,
+    hasFixedFee: false,
     isValidAddress: (address) => isValidTerraAddress(address),
     formatAddress: (address) => address,
     isValidTransactionHash: (hash: string) => isValidTerraTx(hash),
@@ -169,6 +185,8 @@ const chains: { [key in ChainId]: Chain } = {
     txFailureTimeout: 600000, // in ms
     evmCompatible: true,
     hasTokens: true,
+    isMultiLayered: false,
+    hasFixedFee: false,
     isValidAddress: (hexAddress: string) => isValidAddress(with0x(hexAddress)),
     formatAddress: (hexAddress: string) => toChecksumAddress(with0x(hexAddress)),
     isValidTransactionHash: (hash: string) => isValidHex(hash),
@@ -186,6 +204,8 @@ const chains: { [key in ChainId]: Chain } = {
     txFailureTimeout: 600000, // in ms
     evmCompatible: true,
     hasTokens: true,
+    isMultiLayered: false,
+    hasFixedFee: false,
     isValidAddress: (hexAddress: string) => isValidAddress(with0x(hexAddress)),
     formatAddress: (hexAddress: string) => toChecksumAddress(with0x(hexAddress)),
     isValidTransactionHash: (hash: string) => isValidHex(hash),
@@ -203,6 +223,8 @@ const chains: { [key in ChainId]: Chain } = {
     txFailureTimeout: 900000, // in ms
     evmCompatible: true,
     hasTokens: true,
+    isMultiLayered: false,
+    hasFixedFee: false,
     isValidAddress: (hexAddress: string) => isValidAddress(with0x(hexAddress)),
     formatAddress: (hexAddress: string) => toChecksumAddress(with0x(hexAddress)),
     isValidTransactionHash: (hash: string) => isValidHex(hash),
@@ -220,10 +242,30 @@ const chains: { [key in ChainId]: Chain } = {
     txFailureTimeout: 600000, // in ms
     evmCompatible: true,
     hasTokens: true,
+    isMultiLayered: false,
+    hasFixedFee: false,
     isValidAddress: (hexAddress: string) => isValidAddress(with0x(hexAddress)),
     formatAddress: (hexAddress: string) => toChecksumAddress(with0x(hexAddress)),
     isValidTransactionHash: (hash: string) => isValidHex(hash),
     formatTransactionHash: (hash: string) => hash
+  },
+  [ChainId.Optimism]: {
+    name: 'Optimism',
+    code: 'OPTIMISM',
+    nativeAsset: 'OPTETH',
+    fees: {
+      unit: 'gwei'
+    },
+    safeConfirmations: 0, // instant confirmations
+    txFailureTimeout: 0, // in ms
+    evmCompatible: true,
+    hasTokens: true,
+    isMultiLayered: true,
+    hasFixedFee: true,
+    isValidAddress: (hexAddress: string) => isValidAddress(with0x(hexAddress)),
+    formatAddress: (hexAddress: string) => toChecksumAddress(with0x(hexAddress)),
+    isValidTransactionHash: (hash: string) => isValidHex(hash),
+    formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
   }
 }
 
@@ -235,4 +277,12 @@ function hasTokens(chain: ChainId) {
   return chains[chain].hasTokens
 }
 
-export { chains, isEthereumChain, hasTokens }
+function isMultiLayeredChain(chain: ChainId) {
+  return chains[chain].isMultiLayered
+}
+
+function hasFixedFee(chain: ChainId) {
+  return chains[chain].hasFixedFee
+}
+
+export { chains, isEthereumChain, hasTokens, isMultiLayeredChain, hasFixedFee }
