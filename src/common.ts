@@ -3,7 +3,7 @@ import * as cashaddr from 'cashaddrjs'
 
 const BASE58_LENGTH = 32
 
-export const isValidHexWith0xPrefix = (hash: string) => /(0x)([A-Fa-f0-9]{64})$/.test(hash)
+export const isValidHexWith0xPrefix = (hash: string) => /^(0x)?([A-Fa-f0-9]{64})$/.test(hash)
 export const isValidHexWithout0xPrefix = (hash: string) => /^([A-Fa-f0-9]{64})$/.test(hash)
 export const toLowerCaseWithout0x = (hash: string) => hash.toLowerCase().replace(/0x/g, '')
 export const with0x = (hash: string) => (hash.startsWith('0x') ? hash : '0x' + hash)
