@@ -144,7 +144,8 @@ const nativeAssets: AssetMap = {
     color: '#28A0EF',
     decimals: 18,
     matchingAsset: 'ETH',
-    sendGasLimit: { L1: sendGasLimits.NATIVE_OPTIMISM_L1, L2: sendGasLimits.NATIVE_EVM }
+    sendGasLimit: sendGasLimits.NATIVE_EVM,
+    sendGasLimitL1: sendGasLimits.NATIVE_OPTIMISM_L1
   }
 }
 

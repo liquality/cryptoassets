@@ -51,7 +51,8 @@ const arbitrumTokensData = mapValues(arbitrumTokens, (tokenData) => ({
 const optimismTokensData = mapValues(optimismTokens, (tokenData) => ({
   ...tokenData,
   chain: ChainId.Optimism,
-  sendGasLimit: { L1: sendGasLimits.ERC20_OPTIMISM_L1, L2: sendGasLimits.ERC20_OPTIMISM_L2 }
+  sendGasLimit: sendGasLimits.ERC20_OPTIMISM_L2,
+  sendGasLimitL1: sendGasLimits.ERC20_OPTIMISM_L1
 }))
 
 const erc20Assets: AssetMap = mapValues(

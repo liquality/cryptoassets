@@ -17,11 +17,6 @@ export interface Chain {
   formatTransactionHash: (hash: string) => string
 }
 
-export interface MultiLayerFee {
-  L1: number
-  L2: number
-}
-
 export enum AssetTypes {
   native = 'native',
   erc20 = 'erc20'
@@ -56,7 +51,8 @@ export interface Asset {
   contractAddress?: string // ERC20 only
   matchingAsset?: string
   feeAsset?: string
-  sendGasLimit: number | MultiLayerFee
+  sendGasLimit: number
+  sendGasLimitL1?: number // only for multilayer chain assets
 }
 
 export type AssetMap = Record<string, Asset>

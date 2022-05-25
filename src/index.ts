@@ -8,7 +8,7 @@ import {
 } from './assets'
 import { chains, isEthereumChain, isMultiLayeredChain, hasTokens, hasFixedFee } from './chains'
 import { dappChains } from './dapps'
-import { Asset, AssetType, AssetTypes, ChainId, MultiLayerFee } from './types'
+import { Asset, AssetType, AssetTypes, ChainId } from './types'
 
 function unitToCurrency(asset: Asset, value: number | BigNumber): BigNumber {
   const multiplier = new BigNumber(10).pow(asset.decimals)
@@ -37,6 +37,5 @@ export {
   Asset,
   AssetType,
   AssetTypes,
-  ChainId,
-  MultiLayerFee
+  ChainId
 }
