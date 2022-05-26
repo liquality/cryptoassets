@@ -9,7 +9,7 @@ const sendGasLimits = {
   ARBETH: 620000, // for native asset is around ~420k and for ERC20 ~540k
   NEAR: 10000000000000,
   SOL: 1000000,
-  NATIVE_OPTIMISM_L1: 4418,
+  NATIVE_OPTIMISM_L1: 5000,
   ERC20_OPTIMISM_L2: 65000,
   ERC20_OPTIMISM_L1: 5500
 }
