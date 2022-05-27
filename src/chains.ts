@@ -265,7 +265,7 @@ const chains: { [key in ChainId]: Chain } = {
     hasFixedFee: true,
     isValidAddress: (hexAddress: string) => isValidAddress(with0x(hexAddress)),
     formatAddress: (hexAddress: string) => toChecksumAddress(with0x(hexAddress)),
-    isValidTransactionHash: (hash: string) => isValidHex(hash),
+    isValidTransactionHash: (hash: string) => isValidHexWith0xPrefix(hash),
     formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
   }
 }
