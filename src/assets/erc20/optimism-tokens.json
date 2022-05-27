@@ -65,7 +65,8 @@
     "code": "sUSD",
     "decimals": 18,
     "contractAddress": "0x8c6f28f2F1A3C87F0f938b96d27520d9751ec8d9",
-    "coinGeckoId": "nusd"
+    "coinGeckoId": "nusd",
+    "matchingAsset": "sUSD"
   },
   "OPTUSDC": {
     "name": "Optimism USD Coin",
@@ -82,7 +83,7 @@
     "decimals": 18,
     "contractAddress": "0xE405de8F52ba7559f9df3C368500B6E6ae6Cee49",
     "coinGeckoId": "seth",
-    "matchingAsset": "ETH"
+    "matchingAsset": "sETH"
   },
   "OPTsBTC": {
     "name": "Optimism Synthetic Bitcoin",
@@ -90,7 +91,7 @@
     "decimals": 18,
     "contractAddress": "0x298B9B95708152ff6968aafd889c6586e9169f1D",
     "coinGeckoId": "sbtc",
-    "matchingAsset": "BTC"
+    "matchingAsset": "sBTC"
   },
   "OPTsLINK": {
     "name": "Optimism Synthetic Chainlink",
@@ -99,7 +100,7 @@
     "contractAddress": "0xc5Db22719A06418028A40A9B5E9A7c02959D0d08",
     "color": "#01a6fb",
     "coinGeckoId": "slink",
-    "matchingAsset": "LINK"
+    "matchingAsset": "sLINK"
   },
   "OPTUNI": {
     "name": "Optimism Uniswap",
@@ -225,7 +226,8 @@
     "code": "OPTWETH",
     "decimals": 18,
     "contractAddress": "0x4200000000000000000000000000000000000006",
-    "coinGeckoId": "weth"
+    "coinGeckoId": "weth",
+    "matchingAsset": "WETH"
   },
   "OPTEST": {
     "name": "Optimism Erica Social Token",
