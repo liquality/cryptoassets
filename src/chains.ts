@@ -8,13 +8,14 @@ import {
   isValidSolanaAddress,
   isValidBitcoinCashAddress,
   formatBitcoinCashAddress,
-  isValidHex,
+  isValidHexWithout0xPrefix,
   isValidSolanaTx,
   toLowerCaseWithout0x,
   with0x,
   isValidTerraAddress,
   isValidTerraTx,
-  getRSKChainID
+  getRSKChainID,
+  isValidHexWith0xPrefix
 } from './common'
 
 const chains: { [key in ChainId]: Chain } = {
@@ -35,7 +36,7 @@ const chains: { [key in ChainId]: Chain } = {
     // TODO: include network types in validation
     isValidAddress: (address) => !!validateBitcoinAddress(address),
     formatAddress: (address) => address,
-    isValidTransactionHash: (hash: string) => isValidHex(hash),
+    isValidTransactionHash: (hash: string) => isValidHexWithout0xPrefix(hash),
     formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
   },
   [ChainId.BitcoinCash]: {
@@ -55,7 +56,7 @@ const chains: { [key in ChainId]: Chain } = {
     // TODO: include network types in validation
     isValidAddress: (address) => isValidBitcoinCashAddress(address),
     formatAddress: (address) => formatBitcoinCashAddress(address),
-    isValidTransactionHash: (hash: string) => isValidHex(hash),
+    isValidTransactionHash: (hash: string) => isValidHexWithout0xPrefix(hash),
     formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
   },
   [ChainId.Ethereum]: {
@@ -74,7 +75,7 @@ const chains: { [key in ChainId]: Chain } = {
     hasFixedFee: false,
     isValidAddress: (hexAddress: string) => isValidAddress(with0x(hexAddress)),
     formatAddress: (hexAddress: string) => toChecksumAddress(with0x(hexAddress)),
-    isValidTransactionHash: (hash: string) => isValidHex(hash),
+    isValidTransactionHash: (hash: string) => isValidHexWith0xPrefix(hash),
     formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
   },
   [ChainId.Rootstock]: {
@@ -94,7 +95,7 @@ const chains: { [key in ChainId]: Chain } = {
     isValidAddress: (hexAddress: string) => isValidAddress(with0x(hexAddress)),
     formatAddress: (hexAddress: string, network?: string) =>
       toChecksumAddress(with0x(hexAddress), getRSKChainID(network)),
-    isValidTransactionHash: (hash: string) => isValidHex(hash),
+    isValidTransactionHash: (hash: string) => isValidHexWith0xPrefix(hash),
     formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
   },
   [ChainId.BinanceSmartChain]: {
@@ -113,7 +114,7 @@ const chains: { [key in ChainId]: Chain } = {
     hasFixedFee: false,
     isValidAddress: (hexAddress: string) => isValidAddress(with0x(hexAddress)),
     formatAddress: (hexAddress: string) => toChecksumAddress(with0x(hexAddress)),
-    isValidTransactionHash: (hash: string) => isValidHex(hash),
+    isValidTransactionHash: (hash: string) => isValidHexWith0xPrefix(hash),
     formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
   },
   [ChainId.Near]: {
@@ -189,7 +190,7 @@ const chains: { [key in ChainId]: Chain } = {
     hasFixedFee: false,
     isValidAddress: (hexAddress: string) => isValidAddress(with0x(hexAddress)),
     formatAddress: (hexAddress: string) => toChecksumAddress(with0x(hexAddress)),
-    isValidTransactionHash: (hash: string) => isValidHex(hash),
+    isValidTransactionHash: (hash: string) => isValidHexWith0xPrefix(hash),
     formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
   },
   [ChainId.Arbitrum]: {
@@ -208,7 +209,7 @@ const chains: { [key in ChainId]: Chain } = {
     hasFixedFee: false,
     isValidAddress: (hexAddress: string) => isValidAddress(with0x(hexAddress)),
     formatAddress: (hexAddress: string) => toChecksumAddress(with0x(hexAddress)),
-    isValidTransactionHash: (hash: string) => isValidHex(hash),
+    isValidTransactionHash: (hash: string) => isValidHexWith0xPrefix(hash),
     formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
   },
   [ChainId.Fuse]: {
@@ -227,7 +228,7 @@ const chains: { [key in ChainId]: Chain } = {
     hasFixedFee: false,
     isValidAddress: (hexAddress: string) => isValidAddress(with0x(hexAddress)),
     formatAddress: (hexAddress: string) => toChecksumAddress(with0x(hexAddress)),
-    isValidTransactionHash: (hash: string) => isValidHex(hash),
+    isValidTransactionHash: (hash: string) => isValidHexWith0xPrefix(hash),
     formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
   },
   [ChainId.Avalanche]: {
@@ -246,7 +247,7 @@ const chains: { [key in ChainId]: Chain } = {
     hasFixedFee: false,
     isValidAddress: (hexAddress: string) => isValidAddress(with0x(hexAddress)),
     formatAddress: (hexAddress: string) => toChecksumAddress(with0x(hexAddress)),
-    isValidTransactionHash: (hash: string) => isValidHex(hash),
+    isValidTransactionHash: (hash: string) => isValidHexWith0xPrefix(hash),
     formatTransactionHash: (hash: string) => hash
   },
   [ChainId.Optimism]: {
