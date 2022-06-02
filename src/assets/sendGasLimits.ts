@@ -8,7 +8,7 @@ const sendGasLimits = {
   TERRA: 100000, // applies on both native and ERC2 Terra assets
   ARBETH: 620000, // for native asset is around ~420k and for ERC20 ~540k
   NEAR: 10000000000000,
-  SOL: 1000000
+  SOL: 1000000000
 }
 
 const getSendGasLimitERC20 = (chainId: ChainId): number | null => {

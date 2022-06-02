@@ -1,0 +1,17 @@
+{
+  "sUSDT": {
+    "name": "sUSDT",
+    "code": "sUSDT",
+    "decimals": 6,
+    "coinGeckoId": "tether",
+    "contractAddress": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "matchingAsset": "USDT"
+  },
+  "RAYDIUM": {
+    "name": "Raydium",
+    "code": "RAY",
+    "decimals": 6,
+    "coinGeckoId": "raydium",
+    "contractAddress": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R"
+  }
+}
