@@ -6,7 +6,7 @@ import {
   chainToTestnetTokenAddressMap,
   getSendGasLimitERC20
 } from './assets'
-import { chains, isEthereumChain } from './chains'
+import { chains, isEthereumChain, isMultiLayeredChain, hasTokens, hasFixedFee } from './chains'
 import { dappChains } from './dapps'
 import { Asset, AssetType, AssetTypes, ChainId } from './types'
 
@@ -29,6 +29,9 @@ export {
   chains,
   dappChains,
   isEthereumChain,
+  isMultiLayeredChain,
+  hasTokens,
+  hasFixedFee,
   unitToCurrency,
   currencyToUnit,
   Asset,

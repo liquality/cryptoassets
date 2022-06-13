@@ -61,7 +61,7 @@ describe('Avalanche chain tests', function () {
   it('Provides correct tx validation', () => {
     const validTxHash = '0xb4ec649426ba04cd0407d5929288ff3d59d8baca9b810cf4147620bab6dadba3'
     expect(avalanche.isValidTransactionHash(validTxHash)).to.be.true
-    
+
     const validTxHashWithout0x = 'b4ec649426ba04cd0407d5929288ff3d59d8baca9b810cf4147620bab6dadba3'
     expect(avalanche.isValidTransactionHash(validTxHashWithout0x)).to.be.true
 

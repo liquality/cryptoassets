@@ -134,6 +134,18 @@ const nativeAssets: AssetMap = {
     color: '#E84141',
     decimals: 18,
     sendGasLimit: sendGasLimits.NATIVE_EVM
+  },
+  OPTETH: {
+    name: 'Optimism ETH',
+    chain: ChainId.Optimism,
+    type: AssetTypes.native,
+    code: 'OPTETH',
+    coinGeckoId: 'ethereum',
+    color: '#28A0EF',
+    decimals: 18,
+    matchingAsset: 'ETH',
+    sendGasLimit: sendGasLimits.NATIVE_EVM,
+    sendGasLimitL1: sendGasLimits.NATIVE_OPTIMISM_L1
   }
 }
 

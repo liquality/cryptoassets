@@ -9,6 +9,8 @@ export interface Chain {
   txFailureTimeout: number
   evmCompatible: boolean
   hasTokens: boolean
+  isMultiLayered: boolean
+  hasFixedFee: boolean
   isValidAddress: (address: string, network?: string) => boolean
   formatAddress: (address: string, network?: string) => string
   isValidTransactionHash: (hash: string) => boolean
@@ -34,7 +36,8 @@ export enum ChainId {
   Solana = 'solana',
   Fuse = 'fuse',
   Terra = 'terra',
-  Avalanche = 'avalanche'
+  Avalanche = 'avalanche',
+  Optimism = 'optimism'
 }
 
 export interface Asset {
@@ -49,6 +52,7 @@ export interface Asset {
   matchingAsset?: string
   feeAsset?: string
   sendGasLimit: number
+  sendGasLimitL1?: number // only for multilayer chain assets
 }
 
 export type AssetMap = Record<string, Asset>
