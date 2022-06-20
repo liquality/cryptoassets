@@ -33,7 +33,8 @@
     "name": "soLINK",
     "code": "LINK",
     "decimals": 6,
-    "coinGeckoId": "serum",
-    "contractAddress": "CWE8jPTUYhdCTZYWPTe1o5DFqfdjzWKc9WKz6rSjQUdG"
+    "coinGeckoId": "chainlink",
+    "contractAddress": "CWE8jPTUYhdCTZYWPTe1o5DFqfdjzWKc9WKz6rSjQUdG",
+    "matchingAsset": "LINK"
   }
 }
