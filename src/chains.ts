@@ -37,24 +37,6 @@ const chains: { [key in ChainId]: Chain } = {
     isValidTransactionHash: (hash: string) => isValidHexWithout0xPrefix(hash),
     formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
   },
-  [ChainId.BitcoinCash]: {
-    name: 'Bitcoin Cash',
-    code: 'BCH',
-    nativeAsset: 'BCH',
-    fees: {
-      unit: 'sat/b'
-    },
-    safeConfirmations: 1,
-    // ~0,1 blocks per minute * 180 minutes (3 hours) -> 18 blocks wait period
-    txFailureTimeout: 10800000, // 3 hours in ms
-    evmCompatible: false,
-    hasTokens: false,
-    // TODO: include network types in validation
-    isValidAddress: (address) => isValidBitcoinCashAddress(address),
-    formatAddress: (address) => formatBitcoinCashAddress(address),
-    isValidTransactionHash: (hash: string) => isValidHexWithout0xPrefix(hash),
-    formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
-  },
   [ChainId.Ethereum]: {
     name: 'Ethereum',
     code: 'ETH',

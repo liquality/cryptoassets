@@ -13,16 +13,6 @@ const nativeAssets: AssetMap = {
     decimals: 8,
     sendGasLimit: sendGasLimits.BTC
   },
-  BCH: {
-    name: 'Bitcoin Cash',
-    chain: ChainId.BitcoinCash,
-    type: AssetTypes.native,
-    code: 'BCH',
-    coinGeckoId: 'bitcoin-cash',
-    color: '#a1db5e',
-    decimals: 8,
-    sendGasLimit: sendGasLimits.BTC // TODO: is this correct?
-  },
   ETH: {
     name: 'Ether',
     chain: ChainId.Ethereum,
