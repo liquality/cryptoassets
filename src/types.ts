@@ -9,6 +9,7 @@ export interface Chain {
   txFailureTimeout: number
   evmCompatible: boolean
   hasTokens: boolean
+  supportCustomFees: boolean
   isValidAddress: (address: string, network?: string) => boolean
   formatAddress: (address: string, network?: string) => string
   isValidTransactionHash: (hash: string) => boolean
