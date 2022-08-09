@@ -20,6 +20,7 @@ import {
 
 const chains: { [key in ChainId]: Chain } = {
   [ChainId.Bitcoin]: {
+    id: ChainId.Bitcoin,
     name: 'Bitcoin',
     code: 'BTC',
     nativeAsset: 'BTC',
@@ -39,6 +40,7 @@ const chains: { [key in ChainId]: Chain } = {
     formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
   },
   [ChainId.BitcoinCash]: {
+    id: ChainId.BitcoinCash,
     name: 'Bitcoin Cash',
     code: 'BCH',
     nativeAsset: 'BCH',
@@ -58,6 +60,7 @@ const chains: { [key in ChainId]: Chain } = {
     formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
   },
   [ChainId.Ethereum]: {
+    id: ChainId.Ethereum,
     name: 'Ethereum',
     code: 'ETH',
     nativeAsset: 'ETH',
@@ -76,6 +79,7 @@ const chains: { [key in ChainId]: Chain } = {
     formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
   },
   [ChainId.Rootstock]: {
+    id: ChainId.Rootstock,
     name: 'Rootstock',
     code: 'RSK',
     nativeAsset: 'RBTC',
@@ -95,6 +99,7 @@ const chains: { [key in ChainId]: Chain } = {
     formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
   },
   [ChainId.BinanceSmartChain]: {
+    id: ChainId.BinanceSmartChain,
     name: 'Binance Smart Chain',
     code: 'BSC',
     nativeAsset: 'BNB',
@@ -113,6 +118,7 @@ const chains: { [key in ChainId]: Chain } = {
     formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
   },
   [ChainId.Near]: {
+    id: ChainId.Near,
     name: 'Near',
     code: 'NEAR',
     nativeAsset: 'NEAR',
@@ -131,6 +137,7 @@ const chains: { [key in ChainId]: Chain } = {
     formatTransactionHash: (hash: string) => hash
   },
   [ChainId.Solana]: {
+    id: ChainId.Solana,
     name: 'Solana',
     code: 'SOL',
     nativeAsset: 'SOL',
@@ -149,6 +156,7 @@ const chains: { [key in ChainId]: Chain } = {
     formatTransactionHash: (hash: string) => hash
   },
   [ChainId.Terra]: {
+    id: ChainId.Terra,
     name: 'Terra',
     code: 'LUNA',
     nativeAsset: 'LUNA',
@@ -167,6 +175,7 @@ const chains: { [key in ChainId]: Chain } = {
     formatTransactionHash: (hash: string) => hash
   },
   [ChainId.Polygon]: {
+    id: ChainId.Polygon,
     name: 'Polygon',
     code: 'POLYGON',
     nativeAsset: 'MATIC',
@@ -185,6 +194,7 @@ const chains: { [key in ChainId]: Chain } = {
     formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
   },
   [ChainId.Arbitrum]: {
+    id: ChainId.Arbitrum,
     name: 'Arbitrum',
     code: 'ARBITRUM',
     nativeAsset: 'ARBETH',
@@ -203,6 +213,7 @@ const chains: { [key in ChainId]: Chain } = {
     formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
   },
   [ChainId.Fuse]: {
+    id: ChainId.Fuse,
     name: 'Fuse',
     code: 'FUSE',
     nativeAsset: 'FUSE',
@@ -221,6 +232,7 @@ const chains: { [key in ChainId]: Chain } = {
     formatTransactionHash: (hash: string) => toLowerCaseWithout0x(hash)
   },
   [ChainId.Avalanche]: {
+    id: ChainId.Fuse,
     name: 'Avalanche',
     code: 'AVALANCHE',
     nativeAsset: 'AVAX',

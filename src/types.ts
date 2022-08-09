@@ -1,4 +1,5 @@
 export interface Chain {
+  id: ChainId
   name: string
   code: string
   nativeAsset: string
