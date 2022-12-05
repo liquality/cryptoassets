@@ -49,5 +49,58 @@
     "decimals": 18,
     "contractAddress": "0x055a902303746382fbb7d18f6ae0df56efdc5213",
     "color": "#4D9CDC"
+  },
+  "BDX": {
+    "name": "Blindex",
+    "code": "BDX",
+    "decimals": 18,
+    "contractAddress": "0x6542a10e68ceac1fa0641ec0d799a7492795aac1",
+    "color": "#ED6C0F"
+  },
+  "BDUS": {
+    "name": "Blindex USD",
+    "code": "BDUS",
+    "decimals": 18,
+    "contractAddress": "0xb450ff06d950efa9a9c0ad63790c51971c1be885",
+    "color": "#ED6C0F"
+  },
+  "BDEU": {
+    "name": "Blindex EUR",
+    "code": "BDEU",
+    "decimals": 18,
+    "contractAddress": "0x99ac494badd0cba26143bd423e39a088591c7b09",
+    "color": "#ED6C0F"
+  },
+  "XUSD": {
+    "name": "Babelfish USD",
+    "code": "XUSD",
+    "decimals": 18,
+    "contractAddress": "0xb5999795be0ebb5bab23144aa5fd6a02d080299f",
+    "color": "#7D7E7D",
+    "coinGeckoId": "tether",
+    "matchingAsset": "USDT"
+  },
+  "ETHs": {
+    "name": "Rootstock ETH",
+    "code": "ETHs",
+    "decimals": 18,
+    "contractAddress": "0x1d931bf8656d795e50ef6d639562c5bd8ac2b78f",
+    "color": "#333333",
+    "coinGeckoId": "ethereum",
+    "matchingAsset": "ETH"
+  },
+  "bXAU": {
+    "name": "Blindex Gold",
+    "code": "bXAU",
+    "decimals": 18,
+    "contractAddress": "0xa4a8fb98a26e5314397170e5d12da8b73dc2ceb5",
+    "color": "#ED6C0F"
+  },
+  "bGBP": {
+    "name": "Blindex GBP",
+    "code": "bGBP",
+    "decimals": 18,
+    "contractAddress": "0x2415e222755fd1f07b0a565eb4f036e410852ee0",
+    "color": "#ED6C0F"
   }
 }
