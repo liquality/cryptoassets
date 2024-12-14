@@ -35,7 +35,8 @@ export enum ChainId {
   Solana = 'solana',
   Fuse = 'fuse',
   Terra = 'terra',
-  Avalanche = 'avalanche'
+  Avalanche = 'avalanche',
+  Verus = 'vrsc'
 }
 
 export interface Asset {

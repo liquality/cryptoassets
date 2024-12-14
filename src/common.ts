@@ -7,7 +7,6 @@ export const isValidHexWith0xPrefix = (hash: string) => /^(0x)?([A-Fa-f0-9]{64})
 export const isValidHexWithout0xPrefix = (hash: string) => /^([A-Fa-f0-9]{64})$/.test(hash)
 export const toLowerCaseWithout0x = (hash: string) => hash.toLowerCase().replace(/0x/g, '')
 export const with0x = (hash: string) => (hash.startsWith('0x') ? hash : '0x' + hash)
-
 export const isValidNearAddress = (address: string) => address.endsWith('.near') || /^[0-9a-fA-F]{64}$/.test(address)
 
 export const isValidNearTx = (hash: string) => {
@@ -59,6 +58,14 @@ export const isValidTerraAddress = (address: string): boolean => {
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 export const isValidTerraTx = (tx: string): boolean => {
   return typeof tx === 'string' && tx.length === 64
+}
+
+export const isValidVerusAddress = (address: string): boolean => {
+  return base58.decode(address).length === 21
+}
+
+export const isValidVerusTx = (tx: string): boolean => {
+  return isValidHexWith0xPrefix(tx) && tx.length === 64
 }
 
 export const getRSKChainID = (network: string) => {
